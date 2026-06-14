@@ -1,0 +1,5 @@
+all the abstractmethod limitation are in runtime, not compile warning.
+
+Mapping is readonly interface
+(does it mean that i can't add/remove entries? yes, does it mean that i can't modify what's in them? (probably) not)
+

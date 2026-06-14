@@ -22,19 +22,22 @@ class Observable(ABC):
 
     def notify_observers(self, *args: tuple[Any, ...], **kwargs: dict[str, Any]) -> None:
         for observer in self._observers:
-            observer.notify(self, *args, **kwargs)
+            observer.update(self, *args, **kwargs)
 
 
 class Observer(ABC):
+    """
+    gets notified by its observable when it decides to notify
+    """
 
     def __init__(self, subject: Observable | None = None) -> None:
         if subject:
             subject.register_observer(self)
 
     @abstractmethod
-    def notify(self, subject: Observable, *args: tuple[Any, ...], **kwargs: dict[str, Any]) -> None:
+    def update(self, subject: Observable, *args: tuple[Any, ...], **kwargs: dict[str, Any]) -> None:
         """
-        notify the observer (self) that something has changed in what it is observing.
+        updates the observer (self) that something has changed in what it is observing.
         :param subject: the subject being observed and is being updated.
         :param args: all positional arguments that can be needed
         :param kwargs: all keyword arguments that can be needed

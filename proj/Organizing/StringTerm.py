@@ -3,7 +3,8 @@ from ITerm import *
 
 class StringTerm(ITerm):
     """
-    SOLID-Warning: Should be just generic type, with Generic, but it will not be noticed anywhere except in the factory, so deal with it later
+    SOLID-Warning: Should be just generic type, with Generic, but it will not be noticed anywhere except in the factory, so deal with it later.
+    also, it's just one implementation, it's allowed to be bound to some specific
     """
 
     def __init__(self, val: str):
