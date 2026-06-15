@@ -7,14 +7,12 @@ DocumentIdentifier = TypeVar('DocumentIdentifier', bound=Hashable)
 
 
 class IDocument(ABC, Generic[DocumentIdentifier], Iterable[ITerm]):
-    _id: DocumentIdentifier
 
     def __init__(self, doc_id: DocumentIdentifier):
-        self._id = doc_id
+        self._id: DocumentIdentifier = doc_id
 
-    @abstractmethod
     def get_id(self) -> DocumentIdentifier:
-        pass
+        return self._id
 
     @abstractmethod
     def get_terms(self) -> Iterator[ITerm]:
@@ -22,4 +20,7 @@ class IDocument(ABC, Generic[DocumentIdentifier], Iterable[ITerm]):
 
     @abstractmethod
     def __len__(self):
+        """
+        :return: the length of the document, in terms, how many terms are there.
+        """
         pass

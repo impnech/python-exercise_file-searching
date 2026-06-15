@@ -15,17 +15,25 @@ class M(Mapping[int, int]):
         pass
 
     def __iter__(self) -> Iterator[str]:
-        def gen():
-            for i in range(10):
-                yield i
-
-        return gen()
+        for i in range(10):
+            yield i
 
     def __getitem__(self, __key: int) -> int:
-        return __key + 6
+        li = [i * i for i in range(100)]
+        try:
+            return li[__key + 6]
+        except(Exception):
+            raise KeyError()
 
-m=M()
-for k in m.items():
+
+m = M()
+
+print(4 in m)
+print(2323 in m)
+for k in m:
+    print(k)
+print("\n\n\n")
+for k in m:
     print(k)
 
 

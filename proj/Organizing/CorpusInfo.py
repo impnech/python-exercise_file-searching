@@ -8,9 +8,14 @@ from abc import ABC, abstractmethod
 
 
 class CorpusInfo:
-    _corpus: ICorpus
+
+    def __init__(self, _corpus: ICorpus):
+        self._corpus: ICorpus = _corpus
 
     def __len__(self) -> int:
+        return self.amount_of_documents()
+
+    def amount_of_documents(self):
         return len(self._corpus)
 
     def get_doc_len(self, doc_id: DocumentIdentifier) -> int:

@@ -10,8 +10,6 @@ class ICorpus(Observable, Mapping[DocumentIdentifier, IDocument[DocumentIdentifi
     def get_documents(self) -> Iterator[IDocument[Identifier]]:
         pass
 
-
-
     @abstractmethod
     def get_document(self, doc_id: Identifier) -> IDocument[Identifier]:
         pass

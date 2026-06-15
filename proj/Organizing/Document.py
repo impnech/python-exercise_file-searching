@@ -6,14 +6,12 @@ class Document(IDocument):
     """
     SOLID-Warning: again, holds _terms as list, it's not so bad here since it's just one implementation of IDocument
     """
-    _id: DocumentIdentifier
-    _terms: list[ITerm]
-
-    def get_id(self) -> DocumentIdentifier:
-        return self._id
-
-    def __init__(self, doc_id: DocumentIdentifier, terms: Iterable[ITerm]):
+    def __init__(self, doc_id: DocumentIdentifier, terms: Iterable[ITerm] | None = None) -> None:
+        self._id: DocumentIdentifier
         IDocument.__init__(self, doc_id)
+        if terms is None:
+            self._terms = []
+            return
         self._terms: list[ITerm] = list(terms)
 
     '''
@@ -29,9 +27,4 @@ class Document(IDocument):
         return len(self._terms)
 
     def get_terms(self) -> Iterator[ITerm]:
-        # raise NotImplemented("the types are still messy")
-        def gen():
-            for t in self._terms:
-                yield t
-
-        return gen()
+        return self.__iter__()

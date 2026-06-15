@@ -1,0 +1,5 @@
+### LOGGING is important
+
+factory method mostly relevant with config file.
+try to think on shorter classNames
+
