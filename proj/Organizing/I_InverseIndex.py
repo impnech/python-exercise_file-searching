@@ -1,7 +1,5 @@
 import typing
-from abc import ABC
 
-from ITerm import *
 from IDocument import *
 from TermInfoInDocument import *
 from Observing import *

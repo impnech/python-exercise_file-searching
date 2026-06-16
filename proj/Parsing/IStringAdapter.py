@@ -14,4 +14,9 @@ class IStringAdapter(ABC):
     def __hash__(self) -> int:
         return hash(str(self))
 
+    def __add__(self, other: 'IStringAdapter' | str):
+        # TODO: log it properly if it's so important to note
+        print(f"{IStringAdapter.__name__} is adding {self} with {other}.")
+        return str(self) + str(other)
+
 

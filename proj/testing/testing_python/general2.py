@@ -34,9 +34,19 @@ class A(Generic[T]):
         print(hash(t1) + t2.__hash__())
 
 
-a = A()
-a.foo(3, "r")
-print(f"{a == 's'= }")
+a = A[list]()
+a.foo("r", 3)
+print(f"{a == 's' = }")
+
+
+class C(Callable[[int], int]):
+    def __call__(self, *args, **kwargs):
+        pass
+
+    pass
+
+
+c = C()
 
 
 class B:
@@ -47,6 +57,11 @@ class B:
 
 
 class A(B):
+    # A.x = "static field A.x of A"
+    x = "static field x of A"
+
+    def __init__(self):
+        pass
 
     @property
     def val(self) -> int:
@@ -59,6 +74,9 @@ class A(B):
 
 b = B()
 a = A()
+a2 = A(a)
+print(A.x)
+# print(A.)
 print(a.val)
 a.val = 78
 print(a.val)

@@ -1,10 +1,5 @@
-from Organizing.Observing import *
-from Organizing.IDocument import *
 # from Organizing.ICorpus import *
 from Organizing.ICorpus import *
-
-from typing import *
-from abc import ABC, abstractmethod
 
 
 class CorpusInfo:

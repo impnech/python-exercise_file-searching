@@ -1,7 +1,7 @@
-from StringAdapterDecorator import *
+from StringAdapterWeakDecorator import *
 
 
-class LowerizerStringAdapterDecorator(StringAdapterDecorator):
+class LowerizerStringAdapterWeakDecorator(StringAdapterWeakDecorator):
     def __init__(self, component: IStringAdapter) -> None:
         super().__init__(component)
         self._lowerized_value = str(self._component).lower()

@@ -11,15 +11,15 @@ class StringTerm(ITerm):
         if not isinstance(val, str):
             raise ValueError(f"val (the value of {StringTerm.__name__}) should be a string")
         # if not val: raise ValueError("val should not be empty")
-        self.val: str = val
+        self._val: str = val
 
     def __hash__(self) -> int:
-        return hash(self.val)
+        return hash(self._val)
 
     def __eq__(self, other: 'StringTerm'):
-        if not isinstance(other, StringTerm):
+        if not isinstance(other, StringTerm | str):
             return False
-        return self.val == other.val
+        return self._val == str(other)
 
     def __str__(self):
-        return self.val
+        return self._val

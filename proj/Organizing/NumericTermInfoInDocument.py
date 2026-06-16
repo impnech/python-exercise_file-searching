@@ -1,4 +1,4 @@
-from TermInfoInDocument import *
+from Organizing.TermInfoInDocument import *
 from numbers import Number
 
 
