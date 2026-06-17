@@ -1,9 +1,9 @@
 from abc import *
 
-from Computing.I_IdfCalculator import I_IdfCalculator
-from Organizing.IDocument import DocumentIdentifier
-from Organizing.ITerm import ITerm
-from Computing.ITfCalculator import ITfCalculator
+from OldComputing.I_IdfCalculator import I_IdfCalculator
+from OldOrganizing.IDocument import DocumentIdentifier
+from OldOrganizing.ITerm import ITerm
+from OldComputing.ITfCalculator import ITfCalculator
 
 
 

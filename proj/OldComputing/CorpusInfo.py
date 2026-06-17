@@ -1,5 +1,5 @@
-#from Organizing.ICorpus import *
-from Organizing.ICorpus import *
+#from OldOrganizing.ICorpus import *
+from OldOrganizing.ICorpus import *
 
 from typing import *
 

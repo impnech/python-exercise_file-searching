@@ -1,4 +1,4 @@
-from Organizing.NumericTermInfoInDocument import *
+from OldOrganizing.NumericTermInfoInDocument import *
 from collections import defaultdict
 
 

@@ -1,7 +1,7 @@
 from abc import *
 from typing import Generator, TypeVar, Hashable, Iterator, Generic
 from typing import *
-from Organizing.ITerm import ITerm
+from OldOrganizing.ITerm import ITerm
 
 DocumentIdentifier = TypeVar('DocumentIdentifier', bound=Hashable)
 

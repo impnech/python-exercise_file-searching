@@ -1,8 +1,8 @@
 from collections import defaultdict
 
-from Organizing.I_InverseIndex import *
-from Organizing.ICorpus import *
-from Organizing.NumericTermInfoInDocument import *
+from OldOrganizing.I_InverseIndex import *
+from OldOrganizing.ICorpus import *
+from OldOrganizing.NumericTermInfoInDocument import *
 from TermCounterInDocument import *
 
 
