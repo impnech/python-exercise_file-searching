@@ -1,8 +1,8 @@
 from abc import *
 
 from OldComputing.I_IdfCalculator import I_IdfCalculator
-from OldOrganizing.IDocument import DocumentIdentifier
-from OldOrganizing.ITerm import ITerm
+from Building.IDocument import DocumentIdentifier
+from General.ITerm import ITerm
 from OldComputing.ITfCalculator import ITfCalculator
 
 

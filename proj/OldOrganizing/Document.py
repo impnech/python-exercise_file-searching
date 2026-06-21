@@ -1,4 +1,4 @@
-from IDocument import *
+from Building.IDocument import *
 from typing import Iterable
 
 

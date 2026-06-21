@@ -1,12 +1,13 @@
 import _io
 import re
 from typing import TextIO
+from typing import *
 
 
 gl_delim = r"\s"
 
 
-def file_split(f: TextIO, delim: str = ',', bufsize: int = 1024):
+def file_split(f: TextIO, delim: str = gl_delim, bufsize: int = 1024) -> Iterator[str]:
     prev: str = ''
     while True:
         s: str = f.read(bufsize)

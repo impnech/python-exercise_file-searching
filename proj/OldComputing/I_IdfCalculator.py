@@ -1,5 +1,5 @@
-from OldOrganizing.ITerm import ITerm
-from OldOrganizing.IDocument import DocumentIdentifier
+from General.ITerm import ITerm
+from Building.IDocument import DocumentIdentifier
 from abc import *
 
 

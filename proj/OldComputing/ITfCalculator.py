@@ -1,6 +1,4 @@
-from abc import *
-from OldOrganizing.ITerm import ITerm
-from OldOrganizing.IDocument import *
+from Building.IDocument import *
 
 
 class ITfCalculator(ABC):

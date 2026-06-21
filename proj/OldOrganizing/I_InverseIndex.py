@@ -1,8 +1,8 @@
 import typing
 
-from IDocument import *
+from Building.IDocument import *
 from TermInfoInDocument import *
-from Observing import *
+from General.Observing import *
 from abc import *
 from typing import *
 

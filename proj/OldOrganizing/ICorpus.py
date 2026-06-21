@@ -1,5 +1,5 @@
-from OldOrganizing.IDocument import DocumentIdentifier, IDocument
-from Observing import *
+from Building.IDocument import DocumentIdentifier, IDocument
+from General.Observing import *
 from abc import *
 from typing import *
 

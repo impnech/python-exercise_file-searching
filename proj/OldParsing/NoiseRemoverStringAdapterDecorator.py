@@ -1,10 +1,10 @@
-from StringAdapterWeakDecorator import *
+from StringAdapterDecorator import *
 import re
 
+from OldParsing.IStringAdapter import IStringAdapter
 
 
-
-class NoiseRemoverStringAdapterWeakDecorator(StringAdapterWeakDecorator):
+class NoiseRemoverStringAdapterWeakDecorator(StringAdapterDecorator):
     # TODO pull pattern from configuration
     pattern: str = r"[^\w\s]"
 

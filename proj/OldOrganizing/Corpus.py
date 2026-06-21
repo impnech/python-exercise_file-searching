@@ -1,7 +1,3 @@
-from typing import *
-
-from IDocument import IDocument, DocumentIdentifier
-
 from ICorpus import *
 
 
