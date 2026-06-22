@@ -1,5 +1,5 @@
 import re
-from WordBasedStringStreamTransformer import *
+from Parsing.WordBasedStringStreamTransformer import *
 
 
 

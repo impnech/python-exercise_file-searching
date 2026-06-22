@@ -1,6 +1,11 @@
 from InvertedIndex import *
 from Building.IDocument import DocumentIdentifier
 from DictHandler import *
+from DIDAndStreamsGenerator import DIDAndStreamGenerator
+from get_sample_files import get_did_string_streams_sample_pairs
+
+#todo better factory
+from DictHandlerFactory import *
 
 DH = TypeVar("DH", bound=DictHandler)
 
@@ -13,33 +18,42 @@ class InvertedIndexCounter(InvertedIndex[_Map], Generic[DH, DocumentIdentifier])
     In order for this inverted index to hold information, there's need to call the class-method, init(cls)
     """
 
-    # TODO the choosing from config
-    from SimpleDictHandler import SimpleDictHandler
-    _dict_handler: DH = SimpleDictHandler()
+
+    _dict_handler: DH
 
 
     @classmethod
-    def init(cls):
+    def init(cls, dh: DH):
+        cls._dict_handler: DH = dh
         cls.reset()
-    @staticmethod
-    def reset():
-        raise NotImplemented()
+    @classmethod
+    def reset(cls):
+        #cls._dict_handler = DictHandlerFactory.get_dict_handler()
+        #todo, it's supposed to be ITerms
+        for did, stream in DIDAndStreamGenerator.get_did_string_streams_sample_pairs():
+            for word in stream:
+                if word not in cls._dict_handler:
+                    cls._dict_handler[word] = DictHandlerFactory.get_dict_handler()
+                if did not in cls._dict_handler[word]:
+                    cls._dict_handler[word][did] = 1
+                else: cls._dict_handler[word][did] += 1
 
 
-
+    @classmethod
     def __len__(cls):
-        pass
+        return cls._dict_handler.__len__()
 
-    def __iter__(self) -> Iterator[ITerm]:
-        pass
-        __len__ = _dict_handler.__len__
-        __iter__ = _dict_handler.__iter__
-        __getitem__ = _dict_handler.__getitem__
-
-    def __getitem__(self, key: ITerm) -> _Map:
-        pass
+    @classmethod
+    def __iter__(cls) -> Iterator[ITerm]:
+        return cls._dict_handler.__iter__()
+    @classmethod
+    def __getitem__(cls, key: ITerm) -> _Map:
+        return cls._dict_handler.__getitem__(key)
 
 
 if __name__ == '__main__':
     inv = InvertedIndexCounter()
-    InvertedIndexCounter.reset()
+    from SimpleDictHandler import SimpleDictHandler
+    InvertedIndexCounter.init(SimpleDictHandler())
+    for x in inv.items(): print(f"{x[0]}: {x[1]}")
+    print(len(inv))

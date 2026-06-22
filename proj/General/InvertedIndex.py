@@ -11,7 +11,7 @@ class InvertedIndex(ICorpusInfo, Generic[TermInfo], Mapping[ITerm, TermInfo]):
 
     @classmethod
     @abstractmethod
-    def __getitem__(cls,__key: ITerm) -> TermInfo:
+    def __getitem__(cls, __key: ITerm) -> TermInfo:
         pass
 
     @classmethod

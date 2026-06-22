@@ -20,6 +20,8 @@ class SimpleDictHandler(DictHandler):
     def __iter__(self) -> Iterator[KT]:
         return self.__actual_dict.__iter__()
 
+    def __str__(self):
+        return self.__actual_dict.__str__()
 
 
 if __name__ == '__main__':
@@ -27,7 +29,6 @@ if __name__ == '__main__':
     d[3] = "ASd"
     d[3.5] = quit
     print(d[3])
-    print(
-          d[1])
+    print(1 in d)
 
 

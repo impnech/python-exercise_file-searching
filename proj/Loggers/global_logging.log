@@ -1,3 +1,13 @@
 INFO:global_logger:test
 INFO:global_logger:test
 INFO:global_logger:test2
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+WARNING:global_logger:using a function that maybe should be deleted, get_term_streams

@@ -1,4 +1,4 @@
-from General.MapHandler import *
+from Building.MapHandler import *
 
 
 class DictHandler(MapHandler):

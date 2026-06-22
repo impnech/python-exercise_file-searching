@@ -1,4 +1,4 @@
-from StringStreamTransformer import *
+from Parsing.StringStreamTransformer import *
 from typing import *
 
 
