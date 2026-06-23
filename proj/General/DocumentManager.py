@@ -64,6 +64,10 @@ def get_word_stream(file_path: SPath, func=None, delim=None) -> Iterator[str]:
 
 
 if __name__ == '__main__':
+    
+    g = get_word_stream(Path())
+
+    exit()
     from Parsing.Lowerizer import Lowerizer
     for p in document_paths_and_files_in_dir_map(_dir_path, lambda x: Lowerizer.transform(file_split(x))):
         print(p)

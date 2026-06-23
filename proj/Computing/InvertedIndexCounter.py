@@ -38,6 +38,8 @@ if __name__ == '__main__':
     inv = InvertedIndexCounter()
     from General.SimpleDictHandler import SimpleDictHandler
 
+    inv2 = InvertedIndexCounter()
+    print(f"{id(inv)==id(inv2)}")
     InvertedIndexCounter().init(SimpleDictHandler())
     for x in inv.items(): print(f"{x[0]}: {x[1]}")
     for x in InvertedIndexCounter().items(): print(f"{x[0]}: {x[1]}")

@@ -36,8 +36,22 @@ if __name__ == '__main__':
 
         pass
 
+    class C(A):
+        pass
 
+
+    c = C()
     b = B()
+
     a = A()
     a2 = A()
-    print(f"{b is a =}")
+
+    print(f"{id(b) == id(c) =}")
+
+    print(f"{id(b) == id(a) =}")
+
+    print(f"{id(c)==id(a) =}")
+
+    print(f"{id(a2)==id(a) =}")
+
+

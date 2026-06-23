@@ -31,3 +31,113 @@ INFO, DIDAndStreamsGenerator, 2026-06-23 19:06:56,510,  C:\Users\lapto\impnec\py
 INFO, Singleton, 2026-06-23 19:06:57,755,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
 INFO, Singleton, 2026-06-23 19:06:57,755,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
 INFO, Singleton, 2026-06-23 19:06:57,755,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:07:58,238,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:08:00,560,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:09:15,041,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:15:06,074,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:16:36,660,  Class ICorpusInfo is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:17:02,237,  Class ICorpusInfo is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:17:46,410,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:10,140,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:10,140,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:10,140,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:10,140,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:27,589,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:27,589,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:29,970,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:18:29,970,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:29,901,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:29,901,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:29,901,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:47,704,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:47,704,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:47,704,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:53,795,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:53,795,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:53,795,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:53,795,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:53,796,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:19:53,796,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:01,522,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:01,522,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:01,522,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:24,843,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:24,844,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:24,844,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:24,844,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:24,844,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:24,844,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:38,727,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:38,727,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:38,727,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:38,727,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:38,727,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:38,727,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:47,046,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:47,046,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:20:47,046,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:24,523,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:24,524,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:24,524,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:44,155,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:44,155,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:56,671,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:21:56,671,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:05,844,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:05,844,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:17,803,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:17,803,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:33,666,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:33,666,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:58,386,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:23:58,387,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:24:30,481,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:24:30,481,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:24:30,481,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:29:40,916,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:31:02,847,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:31:04,101,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:32:26,329,  Class C is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:32:26,329,  Class B is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:32:26,329,  Class A is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:32:32,115,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:32:33,343,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:32:49,371,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:32:50,575,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:33:12,676,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:33:13,873,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:34:21,457,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:34:22,637,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:34:53,493,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:34:54,878,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:35:11,228,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:35:12,393,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:35:12,393,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:35:12,395,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:40:23,140,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:40:48,387,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:40:49,638,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:40:49,638,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:40:49,641,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:42:35,298,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:42:36,618,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:42:36,618,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:42:36,620,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:42:50,970,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:42:52,206,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:42:52,206,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:42:52,208,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:43:43,093,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, general5, 2026-06-23 19:43:44,352,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\.gitignoreable\testing_python\general5.py being imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:43:49,640,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, general5, 2026-06-23 19:43:50,902,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\.gitignoreable\testing_python\general5.py being imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:44:03,030,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, general5, 2026-06-23 19:44:04,474,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\.gitignoreable\testing_python\general5.py being imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:44:13,087,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:44:14,344,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:44:14,344,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:44:14,346,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:46:52,242,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:46:53,567,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:46:53,567,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:46:53,569,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
