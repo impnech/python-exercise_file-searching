@@ -5,21 +5,24 @@ from General.ITerm import ITerm
 DocumentIdentifier = TypeVar('DocumentIdentifier', bound=Hashable)
 
 
-class IDocument(ABC, Generic[DocumentIdentifier], Iterable[ITerm]):
+class IDocument(ABC, Generic[DocumentIdentifier]):
 
     def __init__(self, doc_id: DocumentIdentifier):
         self._id: DocumentIdentifier = doc_id
 
-    def get_id(self) -> DocumentIdentifier:
+    @property
+    def doc_id(self) -> DocumentIdentifier:
         return self._id
 
     @abstractmethod
-    def get_terms(self) -> Iterator[ITerm]:
+    def stream_terms(self) -> Iterator[ITerm]:
         pass
 
+
+    @property
     @abstractmethod
-    def __len__(self):
+    def length(self) -> int:
         """
-        :return: the length of the document, in terms, how many terms are there.
+        :return: the length of the document, how many terms are there.
         """
         pass

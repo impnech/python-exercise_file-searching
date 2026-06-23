@@ -3,8 +3,13 @@ from typing import *
 from Loggers.g_logging import g_logger
 from Parsing.Splitter import file_split
 
+#todo clean this file
+
+
+SPath = str | Path
+
 # TODO take the path from config
-_dir_path: str | Path = Path(r"..\files\sample_texts")
+_dir_path: SPath = Path(r"..\files\sample_texts")
 
 
 def get_documents(dirpath: str | Path) -> Iterator[TextIO]:
@@ -37,8 +42,6 @@ def document_paths_and_files_in_dir_map(dirpath: str | Path, func: Callable[[Tex
 
 
 _stop_words_file_path: str | Path = Path(r"..\files\stopwords.txt")
-
-
 # TODO : take it from config
 
 
@@ -50,12 +53,14 @@ def _get_file(file_path: str | Path, func: Callable[[TextIO], Any] = None) -> It
         yield file
 
 
-def _get_word_stream(file_path: str | Path, delim=None) -> Iterator[str]:
+def get_word_stream(file_path: SPath, func=None, delim=None) -> Iterator[str]:
+
     file_path = Path(file_path)
     with open(file_path) as f:
-        for x in file_split(f, delim):
-            yield x
-
+        for w in file_split(f, delim):
+            if func is None:
+                yield w
+            else: yield func(w)
 
 
 if __name__ == '__main__':

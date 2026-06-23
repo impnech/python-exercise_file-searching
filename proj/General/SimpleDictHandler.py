@@ -1,5 +1,5 @@
 
-from DictHandler import *
+from General.DictHandler import *
 
 
 class SimpleDictHandler(DictHandler):

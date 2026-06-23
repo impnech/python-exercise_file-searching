@@ -14,8 +14,8 @@ class InverseIndexCounter(I_InverseIndex[TermCounterInDocument]):
         self.mat: dict[ITerm, dict[DocumentIdentifier, TermCounterInDocument]] = defaultdict(
             lambda: defaultdict(lambda: TermCounterInDocument()))
         for d in corpus.values():
-            for t in d.get_terms():
-                self.mat[t][d.get_id()] += 1
+            for t in d.stream_terms():
+                self.mat[t][d.doc_id()] += 1
 
     def update(self, subject: ICorpus, *args: tuple[Any, ...], **kwargs: dict[str, Any]) -> None:
         if not args and not kwargs:
@@ -36,11 +36,11 @@ class InverseIndexCounter(I_InverseIndex[TermCounterInDocument]):
 
 if __name__ == '__main__':
     from Corpus import Corpus
-    from Document import *
+    from Building.DocumentByPath import *
     from General.StringTerm import *
 
-    d1 = Document[int](1, ["hello", " there", "my", "", "hello"])
-    d2 = Document(2, (StringTerm(x) for x in ["hi", " there", "people", "", "hello"]))
+    d1 = DocumentByPath[int](1, ["hello", " there", "my", "", "hello"])
+    d2 = DocumentByPath(2, (StringTerm(x) for x in ["hi", " there", "people", "", "hello"]))
 
 
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
           type(DocumentIdentifier),
           sep='\n')
 
-    iden3: str = d2.get_id()
+    iden3: str = d2.doc_id()
     inv = InverseIndexCounter(Corpus([d1, d2]))
 
     print(inv[StringTerm("hello")][2])

@@ -1,23 +1,32 @@
 from Loggers.g_logging import *
-from DictHandler import *
+from General.DictHandler import *
 import shelve
-
+from General.SerializedInt import SerializedInt
+from pathlib import Path
 
 class ShelveDictHandler(DictHandler):
     """
     Simulates a dict by shelf (shelve) aggregation
     """
-    _running_id: int = 1
-    _shelf_name = "shelf"
+
+    #TODO pull from .env
+    _path_to_running_id_storage: Path = Path(__file__).parent.parent / Path("files") / Path("running_shelves_id")
+    print(_path_to_running_id_storage)
+    _running_id: SerializedInt = SerializedInt(_path_to_running_id_storage)
+
+
+    _shelf_default_name = "shelf"
+
+    #TODO from .env
+    _path_to_closet: Path = Path(__file__).parent / Path('closet_of_shelves')
 
     def __init__(self, name: str | None = None):
 
-        if not name:
-            name = ""
-        self.__name = f"{name}{ShelveDictHandler.shelf_name}{ShelveDictHandler.running_id}"
+        name: str = name or ShelveDictHandler._shelf_default_name
+        self.__name = f"{ShelveDictHandler._path_to_closet / Path(name)}_{ShelveDictHandler._running_id.val}"
         sh: shelve.Shelf = shelve.open(self.__name)
         sh.close()
-        ShelveDictHandler.running_id += 1
+        ShelveDictHandler._running_id.val += 1
 
 
     @staticmethod
@@ -38,11 +47,13 @@ class ShelveDictHandler(DictHandler):
     def __getitem__(self, __key: KT) -> VT:
         with shelve.open(self.__name, "r") as shelf:
             try:
-                ret_val: tuple[KT,VT] = shelf[ShelveDictHandler._get_str_from_key(__key)]
+                ret_val: tuple[KT, VT] = shelf[ShelveDictHandler._get_str_from_key(__key)]
+                return ret_val[-1]
             except KeyError as e:
-                # TODO: log the error to specific place
-                g_logger.log(logging.ERROR, f"shelve: error {e}. with {__key =}. In {self.__name}")
-            return ret_val[-1]
+                # todo: log the error to specific place
+                #g_logger.log(logging.ERROR, f"shelve: error {e}. with {__key =}. In {self.__name}")
+                raise KeyError(e, f"tried to find {__key} in {self.__name}")
+
 
     def __len__(self) -> int:
         with shelve.open(self.__name) as sh:
@@ -53,13 +64,16 @@ class ShelveDictHandler(DictHandler):
             for pair in sh.values():
                 try:
                     yield pair[0]
-                except (IndexError,TypeError,AttributeError) as e:
+                except (IndexError, TypeError, AttributeError) as e:
                     # TODO logging to the right place
                     g_logger.critical(f"at shelf with name {self.__name}, exception {e}. "
                                       f"probably the shelf values weren't the right format, aka ({KT},{VT})")
 
 
 if __name__ == '__main__':
-    s1 = ShelveDictHandler()
-    s2 = ShelveDictHandler("shelf1")
+
+
+
+    s2 = ShelveDictHandler("mylove")
+    s4 = ShelveDictHandler("mylove")
 

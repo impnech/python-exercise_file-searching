@@ -1,13 +1,33 @@
-INFO:global_logger:test
-INFO:global_logger:test
-INFO:global_logger:test2
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
-WARNING:global_logger:using a function that maybe should be deleted, get_term_streams
+INFO, DIDAndStreamsGenerator, 2026-06-23 16:57:03,274,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 16:57:37,888,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 17:28:23,489,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 17:28:44,027,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:08,218,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:22,338,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:53,027,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 17:29:54,236,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:56,988,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 17:29:58,221,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 18:27:24,257,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 18:28:11,410,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 18:28:24,965,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 18:28:26,256,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 18:40:18,059,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 18:52:07,870,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:02:40,294,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:02:41,679,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:04:39,153,  Class InfoPerDocument is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:05:26,462,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:05:39,258,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:05:49,029,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:05:50,300,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:05:50,300,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:05:50,300,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:06:39,884,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:06:41,182,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:06:41,183,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:06:41,183,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-23 19:06:56,510,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-23 19:06:57,755,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:06:57,755,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-23 19:06:57,755,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger

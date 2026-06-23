@@ -1,11 +1,14 @@
 from abc import *
 from typing import final
 
+from General.Singleton import Singleton
 
-class ICorpusInfo(ABC):
+
+class ICorpusInfo(Singleton):
     """
     Holds/produces info about the global corpus
     """
+
     '''
     @final
     #@abstractmethod

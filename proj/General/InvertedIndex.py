@@ -1,25 +1,14 @@
-
-from Building.CorpusInfo import *
+from General.DictHandler import DictHandler
 
 from General.ITerm import *
+from General.DictUsingInfo import *
 from typing import *
 
 TermInfo = TypeVar('TermInfo')
+class InvertedIndex(DictUsingInfo[ITerm, TermInfo], Generic[TermInfo]):
+    pass
+
+if __name__ == '__main__':
 
 
-class InvertedIndex(ICorpusInfo, Generic[TermInfo], Mapping[ITerm, TermInfo]):
-
-    @classmethod
-    @abstractmethod
-    def __getitem__(cls, __key: ITerm) -> TermInfo:
-        pass
-
-    @classmethod
-    @abstractmethod
-    def __len__(cls) -> int:
-        pass
-    @classmethod
-    @abstractmethod
-    def __iter__(cls) -> Iterator[TermInfo]:
-        pass
-
+    pass

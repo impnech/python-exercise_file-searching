@@ -4,7 +4,7 @@ import re
 
 class BadPatternsRemover(BadWordsRemover):
     @classmethod
-    def _init_wordset(cls,):
+    def _init_wordset(cls, *args, **kwargs):
         cls._wordset: set[str] = {r'\s*'}
 
     @classmethod
@@ -16,3 +16,4 @@ class BadPatternsRemover(BadWordsRemover):
 if __name__ == '__main__':
     li = ["text,adf ", "", "fds", " ", " \t"]
     print(list(BadPatternsRemover.transform(li)))
+

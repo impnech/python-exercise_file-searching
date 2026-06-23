@@ -6,7 +6,7 @@ class Corpus(ICorpus):
         super().__init__()
         self._documents: dict[DocumentIdentifier, IDocument[DocumentIdentifier]] = {}
         for doc in documents:
-            did: DocumentIdentifier = doc.get_id()
+            did: DocumentIdentifier = doc.doc_id()
             if did in doc:
                 # TODO logging error
                 raise KeyError(f"document_id {did} exist in {documents} more than once, ids are supposed to be unique")

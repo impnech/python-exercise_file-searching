@@ -1,50 +1,81 @@
+from markdown_it.rules_core import inline
+
 from Parsing.Splitter import file_split
 from Parsing.StringStreamTransformer import *
 from pathlib import Path
-from General.ITerm import  ITerm
+from General.ITerm import ITerm
 from General.DocumentManager import document_paths_and_files_in_dir_map
+from General.DocumentManager import *
 from functools import reduce
+from Loggers.g_logging import g_logger
 
+
+g_logger.info(f"{__file__} bing imported")
 SPath = str | Path
 SITerm = str | ITerm
 
 
-class DIDAndStreamGenerator:
+class DIDAndStreamsGenerator:
     """
     responsible for the classmethod get_did_string_streams_pairs
     """
 
-    #todo pull from config
+
+    #todo pull from .env
     _sample_files_dir_path: SPath = Path(r'../files/sample_texts')
 
     # todo all this shall be replaces with config
-    from Parsing.Lowerizer import Lowerizer;
+    from Parsing.Lowerizer import Lowerizer; from Parsing.Lemmatizer import Lemmatizer
     from Parsing.NoiseRemover import NoiseRemover; from Parsing.StopwordsRemover import StopwordsRemover
     from Parsing.Termifier import Termifier; from Parsing.BadPatternsRemover import BadPatternsRemover
     transformers_list: list[StringStreamTransformer] = [
         Lowerizer,
         NoiseRemover,
+        #Lemmatizer,
         StopwordsRemover,
         BadPatternsRemover,
-        #Termifier
+        Termifier
         ]
+
+    stream_overall_transformation: Callable[[Iterator[SITerm]], Iterator[SITerm]]
+    try:
+        stream_overall_transformation
+    except (AttributeError, NameError):
+        # make sure the list is initialized, from config of course
+        _transformations: Iterator[Callable[[SITerm], SITerm]] = map(lambda t: t.transform, transformers_list)
+        # composition of the transformations
+        stream_overall_transformation: Callable[[Iterator[SITerm]], Iterator[SITerm]] = reduce(
+            lambda acc, f: (lambda s: f(acc(s))),
+            _transformations,
+            file_split
+        )
+
+
+    @classmethod
+    def definitely_path(cls, d_path: SPath | None) -> Path:
+        return d_path or cls._sample_files_dir_path
 
     @classmethod
     def get_did_string_streams_sample_pairs(cls, d_path: SPath = None) -> Iterator[tuple[SPath, Iterator[ITerm | str]]]:
 
-        d_path = d_path or cls._sample_files_dir_path
+        d_path = d_path or cls.definitely_path(d_path)
 
-        #make sure the list is initialized, from config of course
-        transformations: Iterator[Callable[[SITerm], SITerm]] = map(lambda t: t.transform, cls.transformers_list)
-        # composition of the transformations
-        func: Callable[[Iterator[SITerm]], Iterator[SITerm]] = reduce(lambda acc, f: (lambda x: f(acc(x))), transformations, file_split)
-        return document_paths_and_files_in_dir_map(d_path, func)
+        return document_paths_and_files_in_dir_map(d_path, cls.stream_overall_transformation)
 
+    @classmethod
+    def get_docids(cls, dpath: SPath = None):
+        dpath = cls.definitely_path(dpath)
+        return get_document_paths(dpath)
 
 
 if __name__ == '__main__':
-    print(*DIDAndStreamGenerator.get_did_string_streams_sample_pairs())
-    g = DIDAndStreamGenerator.get_did_string_streams_sample_pairs()
+
+    g = DIDAndStreamsGenerator.get_docids()
+    for x in g: print(x)
+
+
+    g = DIDAndStreamsGenerator.get_did_string_streams_sample_pairs()
+
     first = next(g)
     print(first[0])
     print(*first[1], sep="#")
