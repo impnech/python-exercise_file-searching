@@ -12,7 +12,7 @@ class StopwordsRemover(BadWordsRemover):
         return filter(lambda w: w not in badwords, original)
 
     # TODO : take it from .env
-    _stop_words_file_path: str | Path = Path(r"..\files\stopwords.txt")
+    _stop_words_file_path: str | Path = Path(__file__).resolve().parent.parent / Path(r"files\stopwords.txt")
     @classmethod
     def _init_wordset(cls, *args, **kwargs) -> None:
         """

@@ -1,3 +1,6 @@
+import os; print(f"current working directory: {os.getcwd()} ") 
+import sys; 
+for p in sys.path: print(p)
 from General.InfoPerDocument import InfoPerDocument, DocumentIdentifier
 from Computing.InvertedIndexCounter import InvertedIndex, InvertedIndexCounter
 from Building.DocumentsHolder import DocumentsHolder
@@ -23,6 +26,8 @@ if __name__ == '__main__':
     MaxFtd().init(DictHandlerFactory.get_dict_handler())
     x = MaxFtd()
     print(id(x) == id(MaxFtd()))
+    for k in x.items():
+        print(k)
     pass
 
 

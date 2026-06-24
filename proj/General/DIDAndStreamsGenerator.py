@@ -1,4 +1,4 @@
-from markdown_it.rules_core import inline
+#from markdown_it.rules_core import inline
 
 from Parsing.Splitter import file_split
 from Parsing.StringStreamTransformer import *
@@ -22,7 +22,7 @@ class DIDAndStreamsGenerator:
 
 
     #todo pull from .env
-    _sample_files_dir_path: SPath = Path(r'../files/sample_texts')
+    _sample_files_dir_path: SPath = Path(__file__).resolve().parent.parent / Path(r'files/sample_texts')
 
     # todo all this shall be replaces with config
     from Parsing.Lowerizer import Lowerizer; from Parsing.Lemmatizer import Lemmatizer
@@ -47,10 +47,12 @@ class DIDAndStreamsGenerator:
         stream_overall_transformation: Callable[[Iterator[SITerm]], Iterator[SITerm]] = reduce(
             lambda acc, f: (lambda s: f(acc(s))),
             _transformations,
-            file_split
         )
 
-
+    @classmethod
+    def stream_overall_transformation_applied_on_file(cls,some_file):
+        return cls.stream_overall_transformation(file_split(some_file))
+    
     @classmethod
     def definitely_path(cls, d_path: SPath | None) -> Path:
         return d_path or cls._sample_files_dir_path
@@ -58,9 +60,9 @@ class DIDAndStreamsGenerator:
     @classmethod
     def get_did_string_streams_sample_pairs(cls, d_path: SPath = None) -> Iterator[tuple[SPath, Iterator[ITerm | str]]]:
 
-        d_path = d_path or cls.definitely_path(d_path)
+        d_path = cls.definitely_path(d_path)
 
-        return document_paths_and_files_in_dir_map(d_path, cls.stream_overall_transformation)
+        return document_paths_and_files_in_dir_map(d_path, cls.stream_overall_transformation_applied_on_file)
 
     @classmethod
     def get_docids(cls, dpath: SPath = None):

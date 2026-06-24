@@ -11,8 +11,8 @@ class SimpleDictHandler(DictHandler):
     def __setitem__(self, key: KT, value: VT) -> None:
         self.__actual_dict[key] = value
 
-    def __getitem__(self, __key: KT) -> VT:
-        return self.__actual_dict[__key]
+    def __getitem__(self, _key: KT) -> VT:
+        return self.__actual_dict[_key]
 
     def __len__(self) -> int:
         return self.__actual_dict.__len__()

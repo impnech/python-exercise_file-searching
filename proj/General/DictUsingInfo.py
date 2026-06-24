@@ -3,7 +3,7 @@ from collections.abc import Hashable
 from General.DictHandlerFactory import DictHandlerFactory
 from General.ICorpusInfo import *
 from General.DictHandler import DictHandler, KT, VT
-from typing import TypeVar, Mapping, Iterable, Iterator, Generic
+from typing import TypeVar, Mapping, Iterable, Iterator, Generic, Type
 
 DH = TypeVar('DH', bound=DictHandler)
 
@@ -20,7 +20,7 @@ class DictUsingInfo(ICorpusInfo, Generic[KT, VT], Mapping):
         except AttributeError as e:
             raise AttributeError(f"This interface doesn't yet have its internal _dict_handler. "
                                  "To initialize it, use the method init(cls, dh: DictHandler)"
-                                 "thus the exception e")
+                                 f"thus the exception {e}")
 
     def init(self, dh: DH):
         self.__dict_handler: DH = dh
@@ -28,8 +28,13 @@ class DictUsingInfo(ICorpusInfo, Generic[KT, VT], Mapping):
 
     from General.DictHandlerFactory import DictHandlerFactory
     def __init__(self):
-        dh: DictHandler = DictHandlerFactory.get_dict_handler()
-        self.init(dh)
+        """
+        temporary solution to not init every dict-using-info manugally"""
+        try:
+            self._dict_handler
+        except (AttributeError):
+            dh: DictHandler = DictHandlerFactory.get_dict_handler()
+            self.init(dh)
 
     @abstractmethod
     def reset(self):

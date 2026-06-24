@@ -1,6 +1,6 @@
 from Parsing.WordBasedStringStreamTransformer import *
-import nltk
-import spacy
+#import nltk
+#import spacy
 
 
 class Lemmatizer(WordBasedStreamStringTransformer):
