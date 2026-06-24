@@ -17,6 +17,7 @@ SITerm = str | ITerm
 
 class DIDAndStreamsGenerator:
     """
+    (bad name, will be changed, with pycharm)
     responsible for the classmethod get_did_string_streams_pairs
     """
 
@@ -69,6 +70,14 @@ class DIDAndStreamsGenerator:
         dpath = cls.definitely_path(dpath)
         return get_document_paths(dpath)
 
+    @classmethod
+    def all_terms_with_duplicates(cls, dpath: SPath = None) -> Iterator[ITerm | str]:
+        """
+        has alternative in DocumentsHolder, but this one is more efficient, since it doesn't need to hold the documents in memory
+        """
+        for _, stream in cls.get_did_string_streams_sample_pairs(dpath):
+            for term in stream:
+                yield term
 
 if __name__ == '__main__':
 

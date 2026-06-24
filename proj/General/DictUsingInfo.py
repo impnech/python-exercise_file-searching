@@ -29,7 +29,8 @@ class DictUsingInfo(ICorpusInfo, Generic[KT, VT], Mapping):
     from General.DictHandlerFactory import DictHandlerFactory
     def __init__(self):
         """
-        temporary solution to not init every dict-using-info manugally"""
+        temporary solution to not init every dict-using-info manugally
+        """
         try:
             self._dict_handler
         except (AttributeError):

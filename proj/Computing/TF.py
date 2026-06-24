@@ -15,13 +15,17 @@ class TF(InvertedIndex, ABC):
 
     def reset(self):
         for doc_id, stream in DIDAndStreamsGenerator.get_did_string_streams_sample_pairs():
+            
             for term in stream:
+                if term not in self._dict_handler: 
+                    from General.DictHandlerFactory import DictHandlerFactory
+                    self._dict_handler[term] = DictHandlerFactory.get_dict_handler()
                 d_term: DH = self._dict_handler[term]
                 if doc_id not in d_term:
                     d_term[doc_id] = self.calc_tf(term, doc_id)
 
 if __name__ == '__main__':
     from General.DictHandlerFactory import DictHandlerFactory
-    TF._dict_handler(DictHandlerFactory.get_dict_handler())
-    print(TF.dict_handler)
+    #TF._dict_handler(DictHandlerFactory.get_dict_handler())
+    print(TF._dict_handler)
     pass

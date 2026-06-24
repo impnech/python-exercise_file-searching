@@ -7,7 +7,6 @@ class SimpleDictHandler(DictHandler):
     def __init__(self) -> None:
         self.__actual_dict: dict[KT, VT] = {}
 
-
     def __setitem__(self, key: KT, value: VT) -> None:
         self.__actual_dict[key] = value
 

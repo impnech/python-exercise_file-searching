@@ -1,25 +1,30 @@
 from Computing.InvertedIndexCounter import InvertedIndexCounter
 from Building.DocumentsHolder import DocumentsHolder, DocumentIdentifier, IDocument
-from TF import *
+from Computing.TF import *
 from Computing.MaxFtd import MaxFtd, InfoPerDocument
 
 
 class TFByKMax(TF):
-    def __init__(self, K: float = 0.5):
-        super().__init__()
-        if K < 0 or K > 1:
-            raise ValueError(f"K must be in [0,1], but got {K}")
-        self._K: float = K
+    """
+    (1-k)*n_t/max_{t' in d}(n_t') + k 
+    (0<k<1)
+    by default k is 0.5, and it shouldn't be changed mid-run.
+    """
+
+    # for now K can be only 0.5, todo better (not important)
+    _K: float = 0.5 
+
     @classmethod
     def calc_tf(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
         counter: InvertedIndex[Mapping[DocumentIdentifier,int]] = InvertedIndexCounter()
         maxer: InfoPerDocument[DocumentIdentifier, int] = MaxFtd()
         weight = counter[term][doc_id] / maxer[doc_id]
-        return cls._K + (1 - cls._K) * weight
+        k =cls._K
+        return k + (1 - k) * weight
 
 
 if __name__ == "__main__":
     pass
-    tf = TFByKMax(0.3)
+    tf = TFByKMax()
     for k in TFByKMax().items():
         print(k)

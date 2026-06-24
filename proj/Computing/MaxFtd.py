@@ -6,6 +6,9 @@ from Computing.InvertedIndexCounter import InvertedIndex, InvertedIndexCounter
 from Building.DocumentsHolder import DocumentsHolder
 
 class MaxFtd(InfoPerDocument[DocumentIdentifier, int]):
+    """
+    Calculates the maximum frequency of any term in each document.
+    """
     def reset(self):
         docs = DocumentsHolder()
         counter: InvertedIndex = InvertedIndexCounter()
