@@ -1,7 +1,7 @@
 from Parsing.BadWordsRemover import *
 from pathlib import Path
 from General.DocumentManager import get_word_stream
-
+import os
 
 # shouldn't really be static
 class StopwordsRemover(BadWordsRemover):
@@ -13,6 +13,8 @@ class StopwordsRemover(BadWordsRemover):
 
     # TODO : take it from .env
     _stop_words_file_path: str | Path = Path(__file__).resolve().parent.parent / Path(r"files\stopwords.txt")
+    #_stop_words_file_path: str | Path = os.getenv("STOPWORDS_FILE_PATH")
+
     @classmethod
     def _init_wordset(cls, *args, **kwargs) -> None:
         """
@@ -26,9 +28,9 @@ class StopwordsRemover(BadWordsRemover):
 
 if __name__ == '__main__':
     pass
+    text = "i just want to hie, it is very simple of me then"
+    sp = text.split()
+    remer = StopwordsRemover()
+    print(*remer.transform(sp))
 
-
-    #StopWordRemover._stopwords()
-    #exit()
-    #from General.DocumentManager import _get_file, _stop_words_file_path
 

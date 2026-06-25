@@ -1,0 +1,33 @@
+decending order (importance):
+ /w no .env (paths half literal)
+   like previously with running, now with .env access, works only with ctrl+shift+d
+   
+ -b no config
+ -b lemmatization doesn't work + libraries mltk, spacy are not installing correctly
+ -b only one logger + not enough logging
+ -
+ -b messy file organization (mostly in General)
+ -b imports are general (*) and await cleaning
+ -b|gu testing are not organized (if __name__ instead)
+ -b Some class names are confusing
+ -b Some class names are too long
+ -
+ -f in vscode doesn't run regularly, only debugs, with ctrl+shift+D 
+ -b query handeling is not very generic + 
+    there's only very simple main that does only one thing
+
+
+
+
+
+
+
+
+
+
+
+glossary:
+  b = bad
+  w = in work
+  gu = given up
+  f = fixed
