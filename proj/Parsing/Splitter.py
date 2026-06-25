@@ -29,6 +29,10 @@ def file_split(f: TextIO, delim: str = gl_delim, bufsize: int = 1024) -> Iterato
     if prev:
         yield prev
 
+def string_split(s, delim: str = None):
+    if delim is None:
+        delim: str = gl_delim
+    return re.split(pattern=delim, string=s)
 
 def stream_reorganize(o_stream: Iterator[str] | Iterable[str], delim: str = gl_delim) -> Iterator[str]:
     raise NotImplemented(f"{stream_reorganize.__name__}")

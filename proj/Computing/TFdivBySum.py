@@ -11,8 +11,8 @@ class TFdivBySum(TF):
     """
     @classmethod
     def calc_tf(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
-        counter: InvertedIndex = InvertedIndexCounter()  # todo, from config?
-        ftd: int = counter[term][doc_id]
+        counter: InvertedIndexCounter = InvertedIndexCounter()  # todo, from config?
+        ftd: int = counter[term].get(doc_id,0)
         d_size: int = DocumentsHolder()[doc_id].length
 
         return ftd/d_size
@@ -22,10 +22,16 @@ if __name__ == '__main__':
     pass
     tf = TFdivBySum()
     for k in tf:
-        print(k)
+        pass#print(k)
 
     for item in tf.items():
-        print(*item)
+        pass#print(*item)
+    
+    from pathlib import Path
+    _pa =Path(__file__).parent.parent / "files/sample_files/file1"
+
+    print(tf["deep"])
+    print(tf["deep"].get(_pa,0))
 
 
 

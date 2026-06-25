@@ -31,7 +31,10 @@ class InvertedIndexCounter(TF[_Map], Generic[DocumentIdentifier]):
                     self._dict_handler[word][did] += 1
 
     def calc_tf(self, term: ITerm, doc_id: DocumentIdentifier):
-        return self[term][doc_id]
+        try:
+            return self[term][doc_id]
+        except KeyError:
+            return 0 # meaning that term isn't in doc_id, maybe even term isn't at all known
 
 
 if __name__ == '__main__':

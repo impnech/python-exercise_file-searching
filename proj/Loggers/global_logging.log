@@ -1,373 +1,312 @@
-INFO, DIDAndStreamsGenerator, 2026-06-23 16:57:03,274,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 16:57:37,888,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 17:28:23,489,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 17:28:44,027,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:08,218,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:22,338,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:53,027,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 17:29:54,236,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 17:29:56,988,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 17:29:58,221,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 18:27:24,257,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 18:28:11,410,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 18:28:24,965,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 18:28:26,256,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 18:40:18,059,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 18:52:07,870,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:02:40,294,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:02:41,679,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:04:39,153,  Class InfoPerDocument is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:05:26,462,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:05:39,258,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:05:49,029,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:05:50,300,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:05:50,300,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:05:50,300,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:06:39,884,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:06:41,182,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:06:41,183,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:06:41,183,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:06:56,510,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:06:57,755,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:06:57,755,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:06:57,755,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:07:58,238,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:08:00,560,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:09:15,041,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:15:06,074,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:16:36,660,  Class ICorpusInfo is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:17:02,237,  Class ICorpusInfo is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:17:46,410,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:10,140,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:10,140,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:10,140,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:10,140,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:27,589,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:27,589,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:29,970,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:18:29,970,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:29,901,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:29,901,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:29,901,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:47,704,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:47,704,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:47,704,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:53,795,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:53,795,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:53,795,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:53,795,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:53,796,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:19:53,796,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:01,522,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:01,522,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:01,522,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:24,843,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:24,844,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:24,844,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:24,844,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:24,844,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:24,844,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:38,727,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:38,727,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:38,727,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:38,727,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:38,727,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:38,727,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:47,046,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:47,046,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:20:47,046,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:24,523,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:24,524,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:24,524,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:44,155,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:44,155,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:56,671,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:21:56,671,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:05,844,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:05,844,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:17,803,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:17,803,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:33,666,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:33,666,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:58,386,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:23:58,387,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:24:30,481,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:24:30,481,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:24:30,481,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:29:40,916,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:31:02,847,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:31:04,101,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:32:26,329,  Class C is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:32:26,329,  Class B is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:32:26,329,  Class A is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:32:32,115,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:32:33,343,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:32:49,371,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:32:50,575,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:33:12,676,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:33:13,873,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:34:21,457,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:34:22,637,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:34:53,493,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:34:54,878,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:35:11,228,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:35:12,393,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:35:12,393,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:35:12,395,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:40:23,140,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:40:48,387,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:40:49,638,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:40:49,638,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:40:49,641,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:42:35,298,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:42:36,618,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:42:36,618,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:42:36,620,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:42:50,970,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:42:52,206,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:42:52,206,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:42:52,208,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:43:43,093,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, general5, 2026-06-23 19:43:44,352,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\.gitignoreable\testing_python\general5.py being imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:43:49,640,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, general5, 2026-06-23 19:43:50,902,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\.gitignoreable\testing_python\general5.py being imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:44:03,030,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, general5, 2026-06-23 19:44:04,474,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\.gitignoreable\testing_python\general5.py being imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:44:13,087,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:44:14,344,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:44:14,344,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:44:14,346,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-23 19:46:52,242,  C:\Users\lapto\impnec\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-23 19:46:53,567,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:46:53,567,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-23 19:46:53,569,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 05:08:13,001,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 05:08:50,593,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 05:08:50,660,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 05:08:50,660,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 08:52:52,210,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 08:59:28,725,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:00:47,431,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:04:00,255,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:06:23,240,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:07:19,220,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:09:11,354,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:10:36,083,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 09:10:44,871,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 09:10:44,872,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 09:10:44,876,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:12:21,015,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 09:12:21,061,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:12:32,321,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 09:12:32,372,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 09:12:32,373,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 09:12:32,378,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 09:14:12,219,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 09:14:12,269,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 09:14:12,270,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 09:14:12,273,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 11:51:53,197,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 11:55:26,604,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 11:55:26,629,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 11:55:26,629,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 11:55:26,631,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 11:57:05,740,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 11:57:05,770,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 11:57:05,771,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 11:57:05,773,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 11:58:04,740,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 11:58:04,764,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 11:58:04,764,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 11:58:04,769,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:00:32,064,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 12:00:32,090,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 12:00:32,090,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 12:00:32,093,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:03:32,451,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:05:07,623,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:06:41,626,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:07:11,509,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:07:42,045,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:09:02,163,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:10:23,418,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 12:57:47,073,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:01:09,999,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:01:10,031,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:01:10,032,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:01:10,034,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:01:43,410,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:01:43,439,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:01:43,439,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:01:43,442,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:06:00,748,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:06:00,773,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:06:00,773,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:06:00,775,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:07:02,274,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:07:02,296,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:07:02,296,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:07:02,298,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:07:55,295,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:07:55,321,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:07:55,322,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:07:55,326,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:09:00,237,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:09:00,259,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:09:00,259,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:09:03,363,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:37:22,972,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:37:22,998,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:37:22,998,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 13:37:34,978,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:41:41,216,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:41:41,234,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:55:21,734,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:55:21,756,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:59:09,475,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:59:09,498,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 13:59:47,304,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 13:59:47,328,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:02:52,564,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:02:52,594,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:03:03,703,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:03:03,726,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:03:03,726,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:03:12,657,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:06:24,596,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:06:24,621,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:06:24,622,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:06:28,314,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:06:52,785,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:06:52,811,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:06:52,811,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:06:56,034,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:10:05,503,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:10:05,525,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:10:43,825,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:10:43,857,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:10:48,992,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:20:56,352,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:20:56,383,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:21:07,239,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:21:29,830,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:23:07,221,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:23:07,245,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:23:30,120,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:23:54,586,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:26:45,201,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:26:45,227,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:26:45,228,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:26:57,632,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:27:25,350,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:27:25,378,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:27:25,378,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:27:25,380,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:27:45,101,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:27:45,137,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:27:45,138,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 14:27:45,140,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:50:05,259,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 14:50:05,334,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 14:57:38,905,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:00:56,586,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:33:08,698,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:33:08,730,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:36:36,895,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:36:36,933,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:40:16,413,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:40:16,441,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:41:37,351,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:41:37,380,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:43:22,617,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:43:22,644,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:43:39,695,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:43:43,412,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:43:48,003,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:44:15,598,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:45:37,921,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:45:41,755,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 15:56:21,204,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 15:56:23,816,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:07:31,132,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:07:50,775,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:07:59,932,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:13:40,617,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 16:13:50,589,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:15:28,468,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 16:15:29,685,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:16:05,173,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 16:16:08,386,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:16:23,956,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:16:26,139,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:23:18,242,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 16:23:18,274,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:23:18,278,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:23:18,295,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:44:00,858,  Class IDF is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:51:03,117,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 16:51:03,148,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:51:03,151,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:51:03,165,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:51:03,166,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 16:52:43,566,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 16:52:43,597,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:52:43,600,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:52:43,614,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 16:52:43,614,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:06:03,667,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:06:03,687,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:06:08,565,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:06:08,602,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:06:08,608,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:06:08,622,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:06:08,623,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:13:45,726,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:11,221,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:11,229,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:11,245,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:11,245,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:14:30,643,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:35,319,  Class TFByKMax is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:35,326,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:35,338,  Class MaxFtd is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:14:35,338,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:25:35,248,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:25:35,281,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:41:28,129,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:41:28,147,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:41:33,962,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:41:33,987,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:41:33,988,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 17:41:55,689,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 17:41:55,721,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:41:55,722,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 17:41:55,728,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:23:10,722,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:24:19,884,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:24:37,092,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:37,127,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:37,132,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:37,149,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:37,165,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:24:48,414,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:48,445,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:48,449,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:48,470,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:24:48,495,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:29:37,494,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 23:29:37,518,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:29:56,409,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 23:29:56,437,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:29:56,440,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:29:56,459,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:29:56,477,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:31:21,719,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 23:31:21,750,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:31:21,754,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:31:21,772,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:31:21,792,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
-INFO, DIDAndStreamsGenerator, 2026-06-24 23:32:46,522,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
-INFO, Singleton, 2026-06-24 23:32:46,550,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:32:46,553,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:32:46,571,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
-INFO, Singleton, 2026-06-24 23:32:46,589,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:46:40,465,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:46:40,496,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:46:40,502,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:46:40,521,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:46:40,541,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:46:40,556,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:47:35,105,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:47:35,133,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:47:35,136,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:47:35,152,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:47:35,170,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:47:35,183,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+WARNING, MainSimple, 2026-06-25 10:49:21,444,  document_id D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\files\sample_texts\file1.txt didn't want to be nicified  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:50:28,768,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:28,798,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:28,804,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:28,822,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:28,842,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:28,858,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:50:46,998,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:47,027,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:47,033,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:47,062,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:47,080,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:50:47,092,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:51:22,740,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:22,772,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:22,776,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:22,794,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:22,811,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:22,823,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:51:42,394,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:42,422,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:42,425,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:42,444,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:42,461,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:51:42,474,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:53:24,733,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:53:24,761,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:53:24,764,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:53:24,785,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:53:24,806,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:53:24,820,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:55:40,227,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:55:40,261,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:55:40,264,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:55:40,283,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:55:40,310,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:55:40,328,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:56:47,184,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:56:47,214,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:56:47,217,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:56:47,233,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:56:47,250,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:56:47,263,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 10:57:16,435,  got from user query, deep deep   -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:57:44,406,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:57:44,438,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:57:44,441,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:57:44,465,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:57:44,483,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:57:44,495,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 10:57:59,053,  got from user query, "deep DEEP deep deep"  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:58:53,287,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:58:53,317,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:58:53,321,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:58:53,338,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:58:53,358,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:58:53,371,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 10:59:06,276,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 10:59:06,306,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:59:06,309,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:59:06,326,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:59:06,342,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 10:59:06,354,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 10:59:18,411,  got from user query, "deep deep"d  -  global_logger
+INFO, MainSimple, 2026-06-25 10:59:23,996,  got from user query, "deep revalution"d  -  global_logger
+INFO, MainSimple, 2026-06-25 11:00:09,506,  got from user query, "deep space"d  -  global_logger
+INFO, MainSimple, 2026-06-25 11:00:50,661,  got from user query, "deep space"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 11:08:33,100,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 11:08:33,130,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:08:33,133,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:08:33,151,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:08:33,169,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:08:33,179,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 11:37:01,301,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:01,331,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:01,334,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:01,352,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:01,369,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:01,378,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 11:37:57,924,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:57,957,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:57,960,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:57,978,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:57,996,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:37:58,005,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 11:39:04,869,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 11:39:04,896,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:39:04,899,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:39:04,918,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:39:04,935,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:39:04,944,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 11:40:36,783,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 11:40:36,815,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:40:36,818,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:40:36,836,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:40:36,854,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 11:40:36,865,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:14:51,261,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:15:38,079,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:15:38,112,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:15:38,112,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:15:38,116,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:16:15,132,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:16:15,157,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:16:15,157,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:16:15,161,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:16:32,503,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:16:32,537,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:16:32,538,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:16:32,542,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:21:43,655,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:21:43,691,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:21:43,695,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:21:43,722,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:21:43,742,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:21:43,755,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:22:06,735,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:22:06,763,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:22:06,767,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:22:06,780,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:25:33,684,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:25:33,712,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:25:33,712,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:25:33,716,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:26:12,353,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:12,384,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:12,389,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:12,405,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:26:20,122,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:20,149,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:20,152,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:20,171,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:20,188,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:26:20,198,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:28:28,276,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:28:28,308,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:28:28,308,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:28:28,312,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:29:12,935,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:12,967,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:12,970,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:12,988,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:13,007,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:13,015,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:29:59,669,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:59,702,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:59,705,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:59,720,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:59,737,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:29:59,745,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:33:42,088,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:42,126,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:42,129,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:42,149,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:42,167,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:42,176,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:33:55,625,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:55,660,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:55,664,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:55,687,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:55,709,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:33:55,719,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:36:12,852,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:36:12,879,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:36:12,882,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:36:12,895,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:38:05,968,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:38:05,994,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:38:05,998,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:38:06,010,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:38:18,852,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:38:18,874,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:38:18,877,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:38:18,888,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:39:57,407,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:39:57,431,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:39:57,434,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:39:57,451,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:40:33,347,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:40:33,369,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:40:33,371,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:40:33,383,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:41:37,332,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:41:37,360,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:41:37,363,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:41:37,375,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:41:50,359,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:41:50,385,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:41:50,389,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:41:50,403,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:49:09,901,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:49:09,928,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:50:36,376,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:50:36,401,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 12:57:17,906,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 12:57:17,933,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:58:04,144,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 12:58:04,169,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:01:35,694,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:01:35,726,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:03:06,366,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:03:06,403,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:03:26,782,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:03:26,795,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:13:47,115,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:13:47,153,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:13:47,161,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:13:47,184,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:13:47,214,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:13:47,229,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:22:13,025,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:22:27,738,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:27,768,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:27,771,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:27,788,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:27,806,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:27,816,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:22:50,430,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:50,460,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:50,463,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:50,480,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:50,497,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:22:50,505,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:24:19,523,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:19,550,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:19,554,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:19,575,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:19,594,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:19,606,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:24:36,785,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:36,815,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:36,818,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:36,836,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:36,854,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:24:36,864,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:25:40,870,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:25:40,907,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:25:40,911,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:25:40,932,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:25:40,952,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:25:40,962,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:28:44,834,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:28:44,867,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:28:44,870,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:28:44,893,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:28:44,914,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:28:44,936,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 13:28:47,979,  got from user query, "deep"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:29:01,858,  got from user query, "deep space"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:29:31,631,  got from user query, "deep web"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:29:34,379,  got from user query, "web"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:29:43,275,  got from user query, "awsdf "d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:32:04,331,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:04,367,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:04,373,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:04,395,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:04,417,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:04,442,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 13:32:11,453,  got from user query, "web"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:32:32,222,  got from user query, "revolutionized"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:32:53,254,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:53,286,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:53,290,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:53,310,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:53,331,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:32:53,348,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 13:32:57,627,  got from user query, "web"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:33:02,066,  got from user query, "deep weB"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:33:07,473,  got from user query, "deep weB DEE;P"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:33:23,422,  got from user query, "fg"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:33:25,837,  got from user query, "web"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:34:00,641,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:34:00,671,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:34:00,675,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:34:00,692,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:34:00,712,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:34:00,728,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 13:34:06,943,  got from user query, "deep"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:37:39,927,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:37:39,955,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:37:39,960,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:37:39,979,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:37:39,998,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:37:40,013,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 13:37:42,868,  got from user query, "deep"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:37:55,591,  got from user query, "deep web"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:38:03,836,  got from user query, "deep web space"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:38:13,380,  got from user query, "sddlj  DEEP sdflkj';l space"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:38:34,556,  got from user query, "one"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:38:54,090,  got from user query, "deep revolutionized"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:38:57,405,  got from user query, "deep "d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:38:59,448,  got from user query, "revolutionized"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-25 13:39:37,952,  D:\Imanuel\army work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-25 13:39:37,989,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:39:37,994,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:39:38,012,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:39:38,030,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-25 13:39:38,048,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-25 13:39:45,120,  got from user query, "web deep"d  -  global_logger
+INFO, MainSimple, 2026-06-25 13:39:51,170,  got from user query, "deep space web"d  -  global_logger
