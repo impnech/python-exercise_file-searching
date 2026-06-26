@@ -7,7 +7,6 @@ from General.ShelveDictHandler import *
 class DictHandlerFactory:
     @staticmethod
     def get_dict_handler():
+        
+        #return ShelveDictHandler()
         return SimpleDictHandler()
-
-
-        return ShelveDictHandler()

@@ -19,3 +19,4 @@ class PNormCombine(CombineNumbers):
         if p is None or p==1:
             return sum(abs(num) for num in nums) # unnecessary, but more efficient than the general case
         return sum(abs(num) ** p for num in nums) ** (1 / p)
+    

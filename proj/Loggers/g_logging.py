@@ -1,9 +1,9 @@
 import logging
 import os
+from EnvManager import force_get_env
 
 
-
-_path = os.path.dirname(os.path.realpath(__file__))
+_path = force_get_env()
 g_logger: logging.Logger = logging.getLogger("global_logger")
 #TODO make this absolute in config
 logging.basicConfig(

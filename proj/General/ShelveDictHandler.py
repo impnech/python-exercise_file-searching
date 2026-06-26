@@ -3,6 +3,7 @@ from General.DictHandler import *
 import shelve
 from General.SerializedInt import SerializedInt
 from pathlib import Path
+from EnvManager import force_get_env
 
 class ShelveDictHandler(DictHandler):
     """
@@ -18,10 +19,13 @@ class ShelveDictHandler(DictHandler):
     _shelf_default_name = "shelf"
 
     #TODO from .env
-    _path_to_closet: Path = Path(__file__).parent / Path('closet_of_shelves')
 
+    #_path_to_closet: Path = Path(__file__).parent / Path('closet_of_shelves')
+    _path_to_closet: Path = Path(force_get_env("SHELVES_STORAGE_SPACE"))
+    
     def __init__(self, name: str | None = None):
-
+        #make sure the dir exists:
+        ShelveDictHandler._path_to_closet.mkdir(parents=True, exist_ok=True)
         name: str = name or ShelveDictHandler._shelf_default_name
         self.__name = f"{ShelveDictHandler._path_to_closet / Path(name)}_{ShelveDictHandler._running_id.val}"
         sh: shelve.Shelf = shelve.open(self.__name)

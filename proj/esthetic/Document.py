@@ -2,6 +2,7 @@ from Loggers.g_logging import *
 import re
 
 from Building.IDocument import DocumentIdentifier
+
 def nicify_doc_id(did: DocumentIdentifier):
     try:
         #res = re.split(pattern=r'[\\/]',string=str(did))[-1]

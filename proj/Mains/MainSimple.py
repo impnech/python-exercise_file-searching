@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+# override true because it doesn't update automatically, this is before any other import, so there's no need to update
+load_dotenv(override=True)
+
+
 #imports
 from typing import *
 import re
@@ -6,14 +11,15 @@ from Computing.TF_IDF import *
 from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
 from Parsing.Splitter import *
 from Computing.CombineNumbers import CombineNumbers
+from Computing.Calculator import Calculator
 from General.ITerm import ITerm
 from esthetic.Document import *
 SITerm = str | ITerm
-#max heap in python
-import heapq
 
+import os
 
 #bad imports
+import heapq
 from Computing.TF_IDFMultiply import TF_IDFMultiply
 from Computing.PNormCombine import PNormCombine
 from Building.DocumentsHolder import *
@@ -22,8 +28,8 @@ from Building.DocumentsHolder import *
 docs: DocumentsHolder = DocumentsHolder()
 
 #bad inits
-combiner: Type[CombineNumbers] = PNormCombine()
-tfidf: TF_IDF = TF_IDFMultiply()
+combiner: CombineNumbers = PNormCombine()
+tfidf: Calculator = TF_IDFMultiply()
 
 hm_results: int = 3
 
@@ -44,7 +50,7 @@ def handle_query(query: str):
     query: list[SITerm] = list(query)
     make_id_scr_pair = lambda did: (
         did, 
-        combiner.combine(tfidf.safe_calc_tf_idf(w, did) for w in query) 
+        combiner.combine((tfidf.calc(w, did) for w in query)) 
         )
     # with sorted()
     # best_docs = sorted((make_id_scr_pair(did) for did in DocumentsHolder().document_ids()), key=lambda p:p[1], reverse=True)
@@ -66,15 +72,20 @@ def handle_query(query: str):
 
     return best_docs
 
-
+test = True
 
 if __name__ == '__main__':
-    #bad inits
-
     #process
-    while True:
-        query: str = input("Enter query: (quitting is still with Ctrl+C)")
+    q=False
+    while not q:
+        if test == True:
+            query = test_query 
+            q = True
+        else: 
+            query: str = input("Enter query: (quitting is still with Ctrl+C)")
+        
         g_logger.info(f"got from user query, \"{query}\"d")
+        
         res: list[tuple[DocumentIdentifier, Number]] = handle_query(query)
 
         

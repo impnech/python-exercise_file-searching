@@ -1,3 +1,4 @@
+from EnvManager import force_get_env
 from Parsing.BadWordsRemover import *
 from pathlib import Path
 from General.DocumentManager import get_word_stream
@@ -11,9 +12,9 @@ class StopwordsRemover(BadWordsRemover):
         badwords = cls._badwords()
         return filter(lambda w: w not in badwords, original)
 
-    # TODO : take it from .env
-    _stop_words_file_path: str | Path = Path(__file__).resolve().parent.parent / Path(r"files\stopwords.txt")
-    #_stop_words_file_path: str | Path = os.getenv("STOPWORDS_FILE_PATH")
+    # TOBEDONE : take it from .env
+    #_stop_words_file_path: str | Path = Path(__file__).resolve().parent.parent / Path(r"files\stopwords.txt")
+    _stop_words_file_path: str | Path = force_get_env("STOPWORDS_FILE_PATH")
 
     @classmethod
     def _init_wordset(cls, *args, **kwargs) -> None:
@@ -28,7 +29,7 @@ class StopwordsRemover(BadWordsRemover):
 
 if __name__ == '__main__':
     pass
-    text = "i just want to hie, it is very simple of me then"
+    text = "i just want to hie, it is very simple of me then to be in this state"
     sp = text.split()
     remer = StopwordsRemover()
     print(*remer.transform(sp))

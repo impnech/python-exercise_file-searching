@@ -1,13 +1,29 @@
 import os
-import dotenv
-from pathlib import Path
+from dotenv import load_dotenv
+print(f"{__file__.split("\\")[-1]} is being run")
 
-dotenv.load_dotenv()
+# simple trick to 
+dummy: None
+try:
+    dummy
+except NameError:
+    print("here")
+    load_dotenv(override=True)
 
-# Get the workspace root (where .env is located)
-WORKSPACE_ROOT = Path(__file__).resolve().parent
 
-# Path configurations
-_path =  "files/sample_texts"
-SAMPLE_FILES_DIR = WORKSPACE_ROOT / os.getenv("SAMPLE_FILES_DIR",NotImplemented)
-STOPWORDS_FILE = WORKSPACE_ROOT / os.getenv("STOPWORDS_FILE", "files/stopwords.txt")
+
+def force_get_env(key: str) -> str:
+    res = os.getenv(key)
+    if res is None:
+        raise KeyError(f"{key=} doesn't exist in .env")
+    return res
+
+if __name__ == "__main__":
+    x= force_get_env("DOCUMENTS_PATH")
+    try:
+        y = force_get_env("DOCUMENTS_PATH not")
+        print("wrong")
+    except:
+        print("y failed succesfully")
+    print(x,sep="\n")
+

@@ -10,10 +10,10 @@ from Building.IDocument import DocumentIdentifier
 # questionalbe imports
 from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
 from General.DictHandlerFactory import DictHandlerFactory
+from Computing.Calculator import Calculator
 
 
-
-class TF(InvertedIndex, ABC):
+class TF(InvertedIndex, Calculator):
 
 
     __default_value: Number
@@ -22,12 +22,12 @@ class TF(InvertedIndex, ABC):
         return self.__default_value 
     
     @abstractmethod
-    def calc_tf(self, term: ITerm, doc_id: DocumentIdentifier) -> Number:
+    def calc(self, term: ITerm, doc_id: DocumentIdentifier) -> Number:
         raise NotImplementedError(f"Generic TF doesn't have calculation implementation")
 
     def safe_calc_tf(self,term: ITerm, doc_id: DocumentIdentifier) -> Number:
         try:
-            return self.calc_tf(term, doc_id)
+            return self.calc(term, doc_id)
         except KeyError:
             return self.default_value 
             
@@ -40,7 +40,7 @@ class TF(InvertedIndex, ABC):
                     self._dict_handler[term] = DictHandlerFactory.get_dict_handler()
                 d_term: DH = self._dict_handler[term]
                 if doc_id not in d_term:
-                    d_term[doc_id] = self.calc_tf(term, doc_id)
+                    d_term[doc_id] = self.calc(term, doc_id)
 
 if __name__ == '__main__':
     from General.DictHandlerFactory import DictHandlerFactory

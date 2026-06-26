@@ -10,7 +10,7 @@ class TFdivBySum(TF):
     Calculates the term frequency by dividing the term frequency in a document (f_td) by the document size |d| .
     """
     @classmethod
-    def calc_tf(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
+    def calc(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
         counter: InvertedIndexCounter = InvertedIndexCounter()  # todo, from config?
         ftd: int = counter[term].get(doc_id,0)
         d_size: int = DocumentsHolder()[doc_id].length

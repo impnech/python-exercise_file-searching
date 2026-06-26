@@ -8,6 +8,9 @@ from General.DocumentManager import document_paths_and_files_in_dir_map
 from General.DocumentManager import *
 from functools import reduce
 from Loggers.g_logging import g_logger
+import os
+from EnvManager import force_get_env
+
 
 
 g_logger.info(f"{__file__} bing imported")
@@ -23,7 +26,8 @@ class DIDAndStreamsGenerator:
 
 
     #todo pull from .env
-    _sample_files_dir_path: SPath = Path(__file__).resolve().parent.parent / Path(r'files/sample_texts')
+    #_sample_files_dir_path: SPath = Path(__file__).resolve().parent.parent / Path(r'files/sample_texts')
+    _sample_files_dir_path: SPath = force_get_env("DOCUMENTS_PATH")
 
     # todo all this shall be replaces with config
     from Parsing.Lowerizer import Lowerizer; from Parsing.Lemmatizer import Lemmatizer

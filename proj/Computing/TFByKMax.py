@@ -15,7 +15,7 @@ class TFByKMax(TF):
     _K: float = 0.5 
 
     @classmethod
-    def calc_tf(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
+    def calc(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
         counter: InvertedIndex[Mapping[DocumentIdentifier,int]] = InvertedIndexCounter()
         maxer: InfoPerDocument[DocumentIdentifier, int] = MaxFtd()
         weight = counter[term][doc_id] / maxer[doc_id]

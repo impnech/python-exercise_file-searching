@@ -1,3 +1,22 @@
-shorten classnames
-clean up all "... import *"
+1.
 
+run on test_query = """
+language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " 
+deep 
+"""
+
+gave:
+document file1.txt got match 0.34657359027997264
+document file3.txt got match 0.2459554511664322
+document file4.txt got match 0.24353819857511594
+
+with: 
+- SimpleLogorithmicIDF
+- TFDivBySum
+
+(before lammatization, not that it supposed to matter for this test_query)
+
+
+
+2.
+shelves is very slow.

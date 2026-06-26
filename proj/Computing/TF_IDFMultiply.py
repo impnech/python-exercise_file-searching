@@ -20,11 +20,11 @@ if __name__ == "__main__":
 
     
     c = TF_IDFMultiply()
-    v1 = c.calc_tf_idf(w1,_path)
+    v1 = c.unsafe_calc(w1,_path)
     print(f'{v1=}')
-    v1_1 = c.safe_calc_tf_idf(w1,_path)
+    v1_1 = c.calc(w1,_path)
     print(f'{v1_1=}')
-    v2 = c.safe_calc_tf_idf(w2,_path)
+    v2 = c.calc(w2,_path)
     print(f'{v2=}')
 
     print(f" {v1=}, {v1_1=},{v2=}")
