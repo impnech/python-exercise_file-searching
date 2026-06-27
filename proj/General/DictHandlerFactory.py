@@ -8,5 +8,5 @@ class DictHandlerFactory:
     @staticmethod
     def get_dict_handler():
         
-        #return ShelveDictHandler()
+        return ShelveDictHandler()
         return SimpleDictHandler()

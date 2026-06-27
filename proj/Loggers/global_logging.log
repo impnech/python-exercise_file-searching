@@ -18567,3 +18567,26 @@ INFO, MainSimple, 2026-06-25 22:03:27,242,  got from user query, "
 language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " 
 deep 
 "d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-26 19:17:54,575,  D:\Imanuel\army_work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-26 19:17:54,610,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:17:54,777,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:01,918,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:09,403,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:11,986,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-26 19:18:11,986,  got from user query, "
+language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " 
+deep 
+"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-26 19:18:18,556,  D:\Imanuel\army_work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:18,572,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:18,652,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:25,480,  Class DocumentsHolder is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:33,093,  Class SimpleLogorithmicIDF is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:18:35,870,  Class TF_IDFMultiply is creating a (single) instance for itself  -  global_logger
+INFO, MainSimple, 2026-06-26 19:18:35,870,  got from user query, "
+language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " 
+deep 
+"d  -  global_logger
+INFO, DIDAndStreamsGenerator, 2026-06-26 19:33:13,885,  D:\Imanuel\army_work\center_7180_branch_877\overlaping\python_SOLID_ex\python-exercise_file-searching\proj\General\DIDAndStreamsGenerator.py bing imported  -  global_logger
+INFO, Singleton, 2026-06-26 19:33:13,902,  Class TFdivBySum is creating a (single) instance for itself  -  global_logger
+INFO, Singleton, 2026-06-26 19:33:14,002,  Class InvertedIndexCounter is creating a (single) instance for itself  -  global_logger

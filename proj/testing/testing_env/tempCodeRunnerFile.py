@@ -1,3 +1,0 @@
-STREAM_PATH = os.getenv("SHELVES_STORAGE_SPACE")
-
-print(f'{STREAM_PATH=}')

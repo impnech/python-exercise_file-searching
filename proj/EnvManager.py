@@ -1,15 +1,8 @@
 import os
 from dotenv import load_dotenv
-print(f"{__file__.split("\\")[-1]} is being run")
+#print(f"{__file__.split("\\")[-1]} is being run")
 
-# simple trick to 
-dummy: None
-try:
-    dummy
-except NameError:
-    print("here")
-    load_dotenv(override=True)
-
+load_dotenv(override=True)
 
 
 def force_get_env(key: str) -> str:
@@ -21,7 +14,7 @@ def force_get_env(key: str) -> str:
 if __name__ == "__main__":
     x= force_get_env("DOCUMENTS_PATH")
     try:
-        y = force_get_env("DOCUMENTS_PATH not")
+        y = force_get_env("DOCUMENTS_PATH_not")
         print("wrong")
     except:
         print("y failed succesfully")

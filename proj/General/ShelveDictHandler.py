@@ -1,3 +1,4 @@
+import shutil
 from Loggers.g_logging import *
 from General.DictHandler import *
 import shelve
@@ -11,20 +12,23 @@ class ShelveDictHandler(DictHandler):
     """
 
     #TODO pull from .env
-    _path_to_running_id_storage: Path = Path(__file__).parent.parent / Path("files") / Path("running_shelves_id")
-    print(_path_to_running_id_storage)
+    #_path_to_running_id_storage: Path = Path(__file__).parent.parent / Path("files") / Path("running_shelves_id")
+    _path_to_running_id_storage: Path = Path(force_get_env("RUNNING_SHELF_ID"))
     _running_id: SerializedInt = SerializedInt(_path_to_running_id_storage)
 
 
     _shelf_default_name = "shelf"
 
-    #TODO from .env
+    #TOBEDONE from .env
 
     #_path_to_closet: Path = Path(__file__).parent / Path('closet_of_shelves')
     _path_to_closet: Path = Path(force_get_env("SHELVES_STORAGE_SPACE"))
     
     def __init__(self, name: str | None = None):
-        #make sure the dir exists:
+        #make sure the dir exists and is empty:
+        if ShelveDictHandler._path_to_closet.exists():
+            import shutil
+            shutil.rmtree(ShelveDictHandler._path_to_closet)
         ShelveDictHandler._path_to_closet.mkdir(parents=True, exist_ok=True)
         name: str = name or ShelveDictHandler._shelf_default_name
         self.__name = f"{ShelveDictHandler._path_to_closet / Path(name)}_{ShelveDictHandler._running_id.val}"
@@ -73,11 +77,16 @@ class ShelveDictHandler(DictHandler):
                     g_logger.critical(f"at shelf with name {self.__name}, exception {e}. "
                                       f"probably the shelf values weren't the right format, aka ({KT},{VT})")
 
+    @staticmethod
+    def clear_closet(path_to_closet: Path):
+        if path_to_closet.exists():
+            shutil.rmtree(path_to_closet)
+        path_to_closet.mkdir(parents=True, exist_ok=True)
 
 if __name__ == '__main__':
 
 
 
-    s2 = ShelveDictHandler("mylove")
-    s4 = ShelveDictHandler("mylove")
+    s2 = ShelveDictHandler("my")
+    s4 = ShelveDictHandler("my")
 

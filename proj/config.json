@@ -1,0 +1,6 @@
+{
+    "dict_handler": {
+        "module_path": "General", 
+        "class_name": "SimpleDictHandler"
+    }
+}
