@@ -3,6 +3,8 @@
 from Parsing.Splitter import file_split
 from Parsing.StringStreamTransformer import *
 from pathlib import Path
+import importlib
+from AppConfig import force_get_setting, get_class_implementations_list
 from General.ITerm import ITerm
 from General.DocumentManager import document_paths_and_files_in_dir_map
 from General.DocumentManager import *
@@ -25,22 +27,9 @@ class DIDAndStreamsGenerator:
     """
 
 
-    #todo pull from .env
-    #_sample_files_dir_path: SPath = Path(__file__).resolve().parent.parent / Path(r'files/sample_texts')
     _sample_files_dir_path: SPath = force_get_env("DOCUMENTS_PATH")
 
-    # todo all this shall be replaces with config
-    from Parsing.Lowerizer import Lowerizer; from Parsing.Lemmatizer import Lemmatizer
-    from Parsing.NoiseRemover import NoiseRemover; from Parsing.StopwordsRemover import StopwordsRemover
-    from Parsing.Termifier import Termifier; from Parsing.BadPatternsRemover import BadPatternsRemover
-    transformers_list: list[StringStreamTransformer] = [
-        Lowerizer,
-        NoiseRemover,
-        #Lemmatizer,
-        StopwordsRemover,
-        BadPatternsRemover,
-        Termifier
-        ]
+    transformers_list: list[StringStreamTransformer] = get_class_implementations_list(StringStreamTransformer.__name__)
 
     stream_overall_transformation: Callable[[Iterator[SITerm]], Iterator[SITerm]]
     try:

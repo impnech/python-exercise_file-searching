@@ -2,7 +2,6 @@ from General.InvertedIndex import *
 from Building.IDocument import DocumentIdentifier
 from General.DictHandler import *
 from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
-from General.get_sample_files import get_did_string_streams_sample_pairs
 from Computing.TF import TF
 
 # todo better factory

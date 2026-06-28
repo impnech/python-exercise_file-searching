@@ -1,6 +1,61 @@
 {
-    "dict_handler": {
-        "module_path": "General", 
-        "class_name": "SimpleDictHandler"
+    "g_logger_partial_settings":{
+        "filemode":"a",
+        "format": "%(levelname)s, %(module)s, %(asctime)s,  %(message)s  -  %(name)s"
+    },
+    "implementations":{
+        "DictHandler": {
+            "module_path": "General.SimpleDictHandler", 
+            "class_name": "SimpleDictHandler"
+        },
+        "Calculator":{
+            "module_path":"Computing.TF_IDFMultiply",
+            "class_name":"TF_IDFMultiply"
+        },
+        "TF":{
+            "module_path":"Computing.TFdivBySum",
+            "class_name":"TFdivBySum"
+        },
+        "IDF":{
+            "module_path":"Computing.SimpleLogorithmicIDF",
+            "class_name":"SimpleLogorithmicIDF"
+        },
+        "InvertedIndexCounter": {
+            "module_path": "Computing.InvertedIndexCounter",
+            "class_name": "InvertedIndexCounter"
+        },
+        "IDocument":{
+            "module_path": "Building.DocumentByAssociation",
+            "class_name": "DocumentByAssociation"
+        }
+    },
+    "implementations_lists":{
+        "StringStreamTransformer": [
+            {
+            "module_path": "Parsing.Lowerizer",
+            "class_name": "Lowerizer"
+            },
+            {
+            "module_path": "Parsing.NoiseRemover",
+            "class_name": "NoiseRemover"
+            },
+            {
+            "module_path": "Parsing.StopwordsRemover",
+            "class_name": "StopwordsRemover"
+            },
+            {
+            "module_path": "Parsing.BadPatternsRemover",
+            "class_name": "BadPatternsRemover"
+            },
+            {
+            "module_path": "Parsing.Termifier",
+            "class_name": "Termifier"
+            }
+        ]
+    },
+    "default_values": {
+        "splitter_delimiter": "\\s",
+        "noise_to_remove": "[^\\w\\s-]"
     }
 }
+

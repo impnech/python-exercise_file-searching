@@ -1,12 +1,23 @@
 from General.DictHandler import *
-from General.SimpleDictHandler import *
-from General.ShelveDictHandler import *
+from AppConfig import get_config, force_get_setting, get_class_implementation
+import importlib
+from Loggers.g_logging import g_logger
 
-
-# todo better (config)
+# tobedo better (config)
 class DictHandlerFactory:
+
+    fetch_string= DictHandler.__name__
     @staticmethod
-    def get_dict_handler():
-        
-        return ShelveDictHandler()
-        return SimpleDictHandler()
+    def get_dict_handler() -> DictHandler:
+        dict_handler_class = get_class_implementation(DictHandlerFactory.fetch_string)
+        g_logger.debug(f"dict_handler factory initiated: {dict_handler_class}")
+        return dict_handler_class()
+    
+    @staticmethod
+    def get_dict_handler_by_class_name(class_name:str,):
+        raise NotImplementedError()
+    
+
+if __name__ == "__main__":
+    x = DictHandlerFactory.get_dict_handler()
+    print(f"{type(x)=}, {x}")

@@ -1,11 +1,11 @@
 import re
 from Parsing.WordBasedStringStreamTransformer import *
-
+from AppConfig import get_default_value
 
 
 class NoiseRemover(WordBasedStreamStringTransformer):
-    # TODO pull pattern from configuration
-    pattern: str = r"[^\w\s-]"
+    
+    pattern:str = get_default_value("noise_to_remove")
 
     @classmethod
     def _str_transform(cls, o_string: str) -> str:

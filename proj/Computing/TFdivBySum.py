@@ -1,6 +1,6 @@
 from Building.IDocument import DocumentIdentifier
 from General.ITerm import ITerm
-from General.InvertedIndex import InvertedIndex
+from AppConfig import get_class_implementation
 from Computing.TF import TF
 from Computing.InvertedIndexCounter import InvertedIndexCounter
 from Building.DocumentsHolder import DocumentsHolder
@@ -11,7 +11,7 @@ class TFdivBySum(TF):
     """
     @classmethod
     def calc(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
-        counter: InvertedIndexCounter = InvertedIndexCounter()  # todo, from config?
+        counter: InvertedIndexCounter = get_class_implementation(InvertedIndexCounter.__name__)() 
         ftd: int = counter[term].get(doc_id,0)
         d_size: int = DocumentsHolder()[doc_id].length
 

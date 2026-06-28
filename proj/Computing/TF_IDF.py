@@ -1,5 +1,7 @@
 from abc import abstractmethod
 
+from AppConfig import get_class_implementation
+
 from Building.IDocument import DocumentIdentifier
 from Computing.Calculator import *
 #from Computing.Calculator import Calculator
@@ -10,9 +12,9 @@ from General.ICorpusInfo import ICorpusInfo
 from Loggers.g_logging import g_logger
 from numbers import Number
 
-# bad imports. todo this from config
-from Computing.TFdivBySum import TFdivBySum
-from Computing.SimpleLogorithmicIDF import SimpleLogorithmicIDF
+# # bad imports. tobedo this from config
+# from Computing.TFdivBySum import TFdivBySum
+# from Computing.SimpleLogorithmicIDF import SimpleLogorithmicIDF
 
 
 class TF_IDF(Calculator):
@@ -21,9 +23,8 @@ class TF_IDF(Calculator):
     so, no inheretince from DictUsingInfo
     """
 
-    #TODO from config
-    tf: TF = TFdivBySum()
-    idf: IDF = SimpleLogorithmicIDF()
+    tf: TF = get_class_implementation(TF.__name__)()
+    idf: IDF = get_class_implementation(IDF.__name__)()
     
     def reset(self):
         self.tf.reset()

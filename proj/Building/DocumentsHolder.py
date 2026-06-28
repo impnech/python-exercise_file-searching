@@ -5,7 +5,6 @@ from typing import *
 from General.DIDAndStreamsGenerator import *
 
 
-# todo from config
 from Building.DocumentFactory import DocumentFactory
 
 
@@ -18,7 +17,7 @@ class DocumentsHolder(DictUsingInfo[DocumentIdentifier, IDocument], Generic[Docu
     def reset(self):
         #using here not generic, since
         for doc_id in DIDAndStreamsGenerator.get_docids():
-            self._dict_handler[doc_id] = DocumentFactory.get_document(doc_id)
+            self._dict_handler[doc_id] = DocumentFactory.get_document_implementation(doc_id)
 
     
     def get_all_terms_with_duplicates(self, dpath: SPath = None) -> Iterator[ITerm | str]:

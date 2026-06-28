@@ -1,13 +1,15 @@
 problems in decending order (importance):
  /w no .env (paths half literal)
   like previously with running, now with .env access, works only with ctrl+shift+d
- -b no config
- -b simpler main
- -b generic calculator more than tf-idf
+ /w no config
+
+ -f generic calculator more than tf-idf
  -b messy file organization (mostly in General)
  -b lemmatization doesn't work + libraries mltk, spacy are not installing correctly
+  -b simpler main
+
  -b only one logger + not enough logging
- -
+ -b closet of shelves isn't getting cleaned
 
  -b imports are general (import *) and await cleaning
  -b commented code awaits cleaning

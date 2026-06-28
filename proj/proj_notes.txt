@@ -20,3 +20,8 @@ with:
 
 2.
 shelves is very slow.
+
+3.
+InvertedIndexCounter is it's own implementation. it seems meaningless to have a seperate interface 
+for one obvious implementation, but if there is a need, with the help of config, it's possible to use a new class overriding the implementation.
+

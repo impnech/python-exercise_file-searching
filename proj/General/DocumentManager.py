@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import *
 from Loggers.g_logging import g_logger
+from EnvManager import force_get_env
 from Parsing.Splitter import file_split
 
 #todo clean this file
@@ -8,8 +9,6 @@ from Parsing.Splitter import file_split
 
 SPath = str | Path
 
-# TODO take the path from config
-_dir_path: SPath = Path(r"..\files\sample_texts")
 
 
 def get_documents(dirpath: str | Path) -> Iterator[TextIO]:
@@ -41,8 +40,6 @@ def document_paths_and_files_in_dir_map(dirpath: str | Path, func: Callable[[Tex
             yield file_path, rv
 
 
-_stop_words_file_path: str | Path = Path(r"..\files\stopwords.txt")
-# TODO : take it from config
 
 
 def _get_file(file_path: str | Path, func: Callable[[TextIO], Any] = None) -> Iterator[TextIO]:
@@ -65,6 +62,8 @@ def get_word_stream(file_path: SPath, func=None, delim=None) -> Iterator[str]:
 
 if __name__ == '__main__':
     
+    _dir_path: SPath = Path(force_get_env("DOCUMENTS_PATH"))
+
     g = get_word_stream(Path())
 
     exit()

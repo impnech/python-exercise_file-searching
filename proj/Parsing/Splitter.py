@@ -2,9 +2,11 @@ import _io
 import re
 from typing import TextIO
 from typing import *
+from AppConfig import get_default_value
 
-# TODO put this in config
-gl_delim = r"\s"
+# TOBEDONE put this in config
+#gl_delim = r"\s"
+gl_delim: str = get_default_value("splitter_delimiter")
 
 
 

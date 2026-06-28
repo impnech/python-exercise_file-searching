@@ -4,7 +4,7 @@ from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
 from General.DocumentManager import *
 from pathlib import Path
 
-class DocumentByPath(IDocument[Path]):
+class DocumentByStream(IDocument[Path]):
     """
     """
 
@@ -26,8 +26,7 @@ class DocumentByPath(IDocument[Path]):
 
 
 if __name__ == '__main__':
-    pass
-    doc = DocumentByPath(Path(__file__).parent.parent/Path(r'files/sample_texts/file1.txt'))
+    doc = DocumentByStream(Path(__file__).parent.parent/Path(r'files/sample_texts/file1.txt'))
     g=doc.stream_terms()
     x =next(g)
     print(x)

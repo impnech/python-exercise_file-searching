@@ -11,17 +11,12 @@ class ShelveDictHandler(DictHandler):
     Simulates a dict by shelf (shelve) aggregation
     """
 
-    #TODO pull from .env
-    #_path_to_running_id_storage: Path = Path(__file__).parent.parent / Path("files") / Path("running_shelves_id")
     _path_to_running_id_storage: Path = Path(force_get_env("RUNNING_SHELF_ID"))
     _running_id: SerializedInt = SerializedInt(_path_to_running_id_storage)
 
 
     _shelf_default_name = "shelf"
 
-    #TOBEDONE from .env
-
-    #_path_to_closet: Path = Path(__file__).parent / Path('closet_of_shelves')
     _path_to_closet: Path = Path(force_get_env("SHELVES_STORAGE_SPACE"))
     
     def __init__(self, name: str | None = None):
@@ -58,7 +53,7 @@ class ShelveDictHandler(DictHandler):
                 ret_val: tuple[KT, VT] = shelf[ShelveDictHandler._get_str_from_key(__key)]
                 return ret_val[-1]
             except KeyError as e:
-                # todo: log the error to specific place
+                g_logger.exception(e)
                 #g_logger.log(logging.ERROR, f"shelve: error {e}. with {__key =}. In {self.__name}")
                 raise KeyError(e, f"tried to find {__key} in {self.__name}")
 
@@ -73,7 +68,6 @@ class ShelveDictHandler(DictHandler):
                 try:
                     yield pair[0]
                 except (IndexError, TypeError, AttributeError) as e:
-                    # TODO logging to the right place
                     g_logger.critical(f"at shelf with name {self.__name}, exception {e}. "
                                       f"probably the shelf values weren't the right format, aka ({KT},{VT})")
 
