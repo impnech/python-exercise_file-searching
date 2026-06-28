@@ -1,3 +1,3 @@
-from Mains.HandleQuery import run
+from Mains.SimpleMain import run
 
 run(True)

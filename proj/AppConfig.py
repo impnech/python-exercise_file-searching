@@ -1,10 +1,12 @@
 import json
 import importlib
-from EnvManager import force_get_env
+import os.path
+
+from EnvManager import force_get_env, get_root_path, get_absolute_path
 from pathlib import Path
 #will create circular import: from Loggers import g_logging
 
-class ConfigException(FileNotFoundError,json.JSONDecodeError):
+class ConfigException(FileNotFoundError, json.JSONDecodeError):
     pass
 
 
@@ -18,7 +20,7 @@ def get_config():
     
     if _config_cache is None:
         #project_root = force_get_env("ROOTPATH")
-        config_path = force_get_env("CONFIG_PATH")
+        config_path = get_absolute_path("CONFIG_PATH")
 
         try:
             with open(config_path, "r") as file:
@@ -47,6 +49,13 @@ def get_class_implementation(type_to_create: str) -> type:
     cls = getattr(module, class_name)
     return cls
 
+def get_class_implementation_instance(type_to_create: str):
+    cls = get_class_implementation(type_to_create)
+    impl_dict = force_get_setting("implementations")[type_to_create]
+    args = impl_dict.get("args", [])
+    kwargs = impl_dict.get("kwargs", {})
+    return cls(*args, **kwargs)
+
 from collections import deque
 
 def get_class_implementations_list(cls: str)->list[type]:
@@ -71,11 +80,20 @@ def get_outside_variable(name: str):
     value = vars[name]
     return value
 
+
+
+
+
 if __name__ == "__main__":
+
+    d = {8:5}
+    x= d.get(2, 1)
+    print(x)
+    exit()
     sett = force_get_setting("implementations_lists")['StringStreamTransformer']
     print(f"{sett=}")
     exit()
-    v= get_default_value("splitter_delimiter")
+    v = get_default_value("splitter_delimiter")
     print(f"{v=}")
     for s in ["DictHandler", "Calculator"]:
         x = get_class_implementation(s)

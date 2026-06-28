@@ -1,6 +1,5 @@
 from General.InvertedIndex import *
 from Building.IDocument import DocumentIdentifier
-from General.DictHandler import *
 from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
 from Computing.TF import TF
 
@@ -38,7 +37,7 @@ class InvertedIndexCounter(TF[_Map], Generic[DocumentIdentifier]):
 
 if __name__ == '__main__':
     inv = InvertedIndexCounter()
-    from General.SimpleDictHandler import SimpleDictHandler
+    from Structure.SimpleDictHandler import SimpleDictHandler
 
     inv2 = InvertedIndexCounter()
     print(f"{id(inv)==id(inv2)}")

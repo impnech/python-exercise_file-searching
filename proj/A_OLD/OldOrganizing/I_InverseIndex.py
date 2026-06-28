@@ -2,7 +2,7 @@ import typing
 
 from Building.IDocument import *
 from TermInfoInDocument import *
-from General.Observing import *
+from Structure.Observing import *
 from abc import *
 from typing import *
 

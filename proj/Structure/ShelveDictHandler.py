@@ -2,7 +2,7 @@ import shutil
 from Loggers.g_logging import *
 from General.DictHandler import *
 import shelve
-from General.SerializedInt import SerializedInt
+from Structure.SerializedInt import SerializedInt
 from pathlib import Path
 from EnvManager import force_get_env
 

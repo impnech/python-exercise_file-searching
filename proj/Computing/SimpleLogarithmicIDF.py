@@ -5,7 +5,7 @@ from Building.DocumentsHolder import DocumentsHolder, DocumentIdentifier
 
 import math
 
-class SimpleLogorithmicIDF(IDF):
+class SimpleLogarithmicIDF(IDF):
     """
     Calculates the inverse document frequency using the formula: log(N/df_t)
     where N is the total number of documents in the corpus and df_t is the number of documents containing the term t.
@@ -20,6 +20,6 @@ class SimpleLogorithmicIDF(IDF):
         return math.log(N / df_t)
     
 if __name__ == '__main__':
-    idf = SimpleLogorithmicIDF()
+    idf = SimpleLogarithmicIDF()
     for term in idf:
         print(f"Term: {term}, IDF: {idf[term]}")

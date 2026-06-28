@@ -3,18 +3,12 @@ from abc import abstractmethod
 from AppConfig import get_class_implementation
 
 from Building.IDocument import DocumentIdentifier
-from Computing.Calculator import *
+from Computing.Calculator import Calculator
 #from Computing.Calculator import Calculator
 from Computing.TF import TF
 from Computing.IDF import IDF
-from General import ITerm
-from General.ICorpusInfo import ICorpusInfo
-from Loggers.g_logging import g_logger
+from Building import ITerm
 from numbers import Number
-
-# # bad imports. tobedo this from config
-# from Computing.TFdivBySum import TFdivBySum
-# from Computing.SimpleLogorithmicIDF import SimpleLogorithmicIDF
 
 
 class TF_IDF(Calculator):

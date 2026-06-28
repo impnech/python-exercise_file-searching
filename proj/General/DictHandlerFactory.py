@@ -5,6 +5,7 @@ from Loggers.g_logging import g_logger
 
 # tobedo better (config)
 class DictHandlerFactory:
+    # todo: allow a choice of dicts, depending on the situation
 
     fetch_string= DictHandler.__name__
     @staticmethod

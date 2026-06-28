@@ -19,8 +19,9 @@ class LemmatizerSpacy(Lemmatizer):
         _lang_model: str = get_outside_variable("language_model") 
         nlp = spacy.load(_lang_model)
     except (ImportError, OSError ) as e:
-        g_logger.error(f"didn't find model {_lang_model}, maybe try running on terminal: 'python spacy -m download {_lang_model}'")
-        raise ImportError(e)
+        expln=f"didn't find model {_lang_model}, maybe try running on terminal: 'python -m spacy download {_lang_model}'"
+        g_logger.error(expln)
+        raise ImportError(expln, e)
 
     @classmethod
     def _str_transform(cls, o_string):

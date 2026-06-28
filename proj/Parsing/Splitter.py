@@ -72,6 +72,6 @@ if __name__ == '__main__':
 
 
     exit()
-    with open("../.gitignoreable/testing_python/files/ex-file.txt") as some_file:
+    with open("../.gitignorable/testing_python/files/ex-file.txt") as some_file:
         for chunk in file_split(some_file, gl_delim):
             print(f"{chunk=}")

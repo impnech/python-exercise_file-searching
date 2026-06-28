@@ -1,9 +1,21 @@
 import os
 from dotenv import load_dotenv
-#print(f"{__file__.split("\\")[-1]} is being run")
+from pathlib import Path
 
 load_dotenv(override=True)
 
+#print(f"{__file__.split("\\")[-1]} is being run")
+
+
+def get_root_path() -> str:
+    return force_get_env("ROOTPATH")
+
+def get_absolute_path(name_or_rel_path: str | Path) -> Path:
+    rel_path: str = os.getenv(name_or_rel_path)
+    if rel_path is None:
+        rel_path = name_or_rel_path
+    root_p = Path(get_root_path())
+    return root_p / rel_path
 
 def force_get_env(key: str) -> str:
     res = os.getenv(key)
