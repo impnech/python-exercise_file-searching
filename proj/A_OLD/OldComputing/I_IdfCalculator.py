@@ -1,4 +1,4 @@
-from General.ITerm import ITerm
+from Building.ITerm import ITerm
 from Building.IDocument import DocumentIdentifier
 from abc import *
 

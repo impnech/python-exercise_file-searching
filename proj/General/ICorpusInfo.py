@@ -1,7 +1,6 @@
 from abc import *
-from typing import final
 
-from General.Singleton import Singleton
+from Structure.Singleton import Singleton
 
 
 class ICorpusInfo(Singleton):

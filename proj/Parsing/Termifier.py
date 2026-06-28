@@ -1,4 +1,4 @@
-from General.StringTerm import StringTerm, ITerm
+from Building.StringTerm import StringTerm, ITerm
 from Parsing.WordBasedStringStreamTransformer import WordBasedStreamStringTransformer
 
 

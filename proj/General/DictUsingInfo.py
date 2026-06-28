@@ -18,6 +18,10 @@ class DictUsingInfo(ICorpusInfo, Generic[KT, VT], Mapping):
         try:
             return self.__dict_handler
         except AttributeError as e:
+            dh = DictHandlerFactory.get_dict_handler()
+            self.init(dh)
+            return self.__dict_handler
+
             raise AttributeError(f"This interface doesn't yet have its internal _dict_handler. "
                                  "To initialize it, use the method init(cls, dh: DictHandler)"
                                  f"thus the exception {e}")

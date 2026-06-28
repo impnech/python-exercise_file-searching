@@ -1,16 +1,14 @@
-from abc import abstractmethod, ABC
-from typing import *
+from abc import abstractmethod
 from numbers import Number
 
-from General.DictHandler import DictHandler
-from General.ITerm import ITerm
+from Building.ITerm import ITerm
 from General.InvertedIndex import InvertedIndex, DH
 from Building.IDocument import DocumentIdentifier
 
 # questionalbe imports
 from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
-from General.DictHandlerFactory import DictHandlerFactory
 from Computing.Calculator import Calculator
+from General.DictHandlerFactory import DictHandlerFactory
 
 
 class TF(InvertedIndex, Calculator):
@@ -32,7 +30,7 @@ class TF(InvertedIndex, Calculator):
             return self.default_value 
             
     def reset(self, default_val = 0):
-        self.__default_value = 0
+        self.__default_value = default_val
         for doc_id, stream in DIDAndStreamsGenerator.get_did_string_streams_sample_pairs():
             
             for term in stream:
@@ -43,7 +41,6 @@ class TF(InvertedIndex, Calculator):
                     d_term[doc_id] = self.calc(term, doc_id)
 
 if __name__ == '__main__':
-    from General.DictHandlerFactory import DictHandlerFactory
     #TF._dict_handler(DictHandlerFactory.get_dict_handler())
     #print(TF._dict_handler)
     pass

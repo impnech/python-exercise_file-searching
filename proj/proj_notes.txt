@@ -11,17 +11,19 @@ document file3.txt got match 0.2459554511664322
 document file4.txt got match 0.24353819857511594
 
 with: 
-- SimpleLogorithmicIDF
+- SimpleLogarithmicIDF
 - TFDivBySum
-
 (before lammatization, not that it supposed to matter for this test_query)
 
 
-
 2.
-shelves is very slow.
+shelves are very slow.
+spacy is a little slow. especially in pycharm
 
 3.
 InvertedIndexCounter is it's own implementation. it seems meaningless to have a seperate interface 
 for one obvious implementation, but if there is a need, with the help of config, it's possible to use a new class overriding the implementation.
+
+4.
+in pycharm template configuration let the path start from root, which was automatic in vscode
 

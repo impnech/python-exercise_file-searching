@@ -1,16 +1,19 @@
-problems in decending order (importance):
+problems in descending order (importance):
  /w no .env (paths half literal)
   like previously with running, now with .env access, works only with ctrl+shift+d
- /w no config
+ /f no config
 
  -f generic calculator more than tf-idf
  -b messy file organization (mostly in General)
- -b lemmatization doesn't work + libraries mltk, spacy are not installing correctly
-  -b simpler main
+ -f lemmatization doesn't work
+ /f simpler main
 
+ -b initializing classes without their parameters
  -b only one logger + not enough logging
+ -b library mltk, installing correctly
  -b closet of shelves isn't getting cleaned
 
+ -b don't have simple way to disable annoying lemmatization (long in pycharm) turn on and off easily
  -b imports are general (import *) and await cleaning
  -b commented code awaits cleaning
  -b|gu testing are not organized (if __name__ instead)
@@ -19,9 +22,25 @@ problems in decending order (importance):
  -
  -
  -f in vscode doesn't run regularly, only debugs, with ctrl+shift+D 
- -b query handeling is not very generic 
+ -b query handling is not very generic
  -b|gu type checking in vscode is very unhappy, unlike pycharm.
  -gu  there's only very simple main that does only one thing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 from abc import *
 from typing import *
-from General.ITerm import ITerm
+from Building.ITerm import ITerm
 
 DocumentIdentifier = TypeVar('DocumentIdentifier', bound=Hashable)
 

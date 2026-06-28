@@ -5,28 +5,48 @@
     },
     "implementations":{
         "DictHandler": {
-            "module_path": "General.SimpleDictHandler", 
+            "module_path": "Structure.SimpleDictHandler",
             "class_name": "SimpleDictHandler"
         },
         "Calculator":{
             "module_path":"Computing.TF_IDFMultiply",
-            "class_name":"TF_IDFMultiply"
+            "class_name":"TF_IDFMultiply",
+            "init_args": {
+                "args": [],
+                "kwargs": {}
+            }
         },
         "TF":{
             "module_path":"Computing.TFdivBySum",
-            "class_name":"TFdivBySum"
+            "class_name":"TFdivBySum",
+            "init_args": {
+                "args": [],
+                "kwargs": {}
+            }
         },
         "IDF":{
-            "module_path":"Computing.SimpleLogorithmicIDF",
-            "class_name":"SimpleLogorithmicIDF"
+            "module_path":"Computing.SimpleLogarithmicIDF",
+            "class_name":"SimpleLogarithmicIDF"
         },
         "InvertedIndexCounter": {
             "module_path": "Computing.InvertedIndexCounter",
             "class_name": "InvertedIndexCounter"
         },
+        "CombineNumbers": {
+            "module_path":"Computing.PNormCombine",
+            "class_name":"PNormCombine",
+            "init_args": {
+                "args": [1],
+                "kwargs": {}
+            }
+        },
         "IDocument":{
             "module_path": "Building.DocumentByAssociation",
             "class_name": "DocumentByAssociation"
+        },
+        "GetNBest": {
+            "module_path": "Menu.Heaper",
+            "class_name": "Heaper"
         }
     },
     "implementations_lists":{
@@ -47,10 +67,7 @@
             "module_path": "Parsing.BadPatternsRemover",
             "class_name": "BadPatternsRemover"
             },
-            {
-            "module_path": "Parsing.LemmatizerSpacy",
-            "class_name": "LemmatizerSpacy"
-            },
+
             {
             "module_path": "Parsing.Termifier",
             "class_name": "Termifier"
@@ -59,7 +76,8 @@
     },
     "default_values": {
         "splitter_delimiter": "\\s",
-        "noise_to_remove": "[^\\w\\s-]"
+        "noise_to_remove": "[^\\w\\s-]",
+        "how_many_results_to_show": 3
     },
     "outside_variables":{
         "language_model": "en_core_web_sm"

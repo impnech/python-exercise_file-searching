@@ -11,7 +11,7 @@ class TFByKMax(TF):
     by default k is 0.5, and it shouldn't be changed mid-run.
     """
 
-    # for now K can be only 0.5, todo better (not important)
+    # for now K can be only 0.5, todo better (not urgent)
     _K: float = 0.5 
 
     @classmethod

@@ -1,4 +1,4 @@
-from General.ITerm import *
+from Building.ITerm import *
 
 
 class StringTerm(ITerm):

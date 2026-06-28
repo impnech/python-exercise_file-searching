@@ -1,5 +1,5 @@
 from Building.IDocument import DocumentIdentifier
-from General.ITerm import ITerm
+from Building.ITerm import ITerm
 from AppConfig import get_class_implementation
 from Computing.TF import TF
 from Computing.InvertedIndexCounter import InvertedIndexCounter
