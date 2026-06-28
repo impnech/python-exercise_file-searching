@@ -66,6 +66,10 @@ def get_default_value(name: str)->any:
     value = value_d[name]
     return value
 
+def get_outside_variable(name: str):
+    vars = force_get_setting("outside_variables")
+    value = vars[name]
+    return value
 
 if __name__ == "__main__":
     sett = force_get_setting("implementations_lists")['StringStreamTransformer']

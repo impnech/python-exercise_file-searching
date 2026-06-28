@@ -13,7 +13,6 @@ class StopwordsRemover(BadWordsRemover):
         return filter(lambda w: w not in badwords, original)
 
     # TOBEDONE : take it from .env
-    #_stop_words_file_path: str | Path = Path(__file__).resolve().parent.parent / Path(r"files\stopwords.txt")
     _stop_words_file_path: str | Path = force_get_env("STOPWORDS_FILE_PATH")
 
     @classmethod

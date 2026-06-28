@@ -5,7 +5,7 @@ from typing import *
 from AppConfig import get_default_value
 
 # TOBEDONE put this in config
-#gl_delim = r"\s"
+
 gl_delim: str = get_default_value("splitter_delimiter")
 
 
@@ -37,6 +37,7 @@ def string_split(s, delim: str = None):
     return re.split(pattern=delim, string=s)
 
 def stream_reorganize(o_stream: Iterator[str] | Iterable[str], delim: str = gl_delim) -> Iterator[str]:
+    
     raise NotImplemented(f"{stream_reorganize.__name__}")
 
     if delim is None: delim = gl_delim

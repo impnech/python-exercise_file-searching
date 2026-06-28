@@ -48,6 +48,10 @@
             "class_name": "BadPatternsRemover"
             },
             {
+            "module_path": "Parsing.LemmatizerSpacy",
+            "class_name": "LemmatizerSpacy"
+            },
+            {
             "module_path": "Parsing.Termifier",
             "class_name": "Termifier"
             }
@@ -56,6 +60,9 @@
     "default_values": {
         "splitter_delimiter": "\\s",
         "noise_to_remove": "[^\\w\\s-]"
+    },
+    "outside_variables":{
+        "language_model": "en_core_web_sm"
     }
 }
 

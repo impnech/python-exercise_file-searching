@@ -6,4 +6,4 @@ from Parsing.WordBasedStringStreamTransformer import *
 class Lemmatizer(WordBasedStreamStringTransformer):
     @classmethod
     def _str_transform(cls, o_string: str) -> str:
-        raise NotImplemented("Lemmatizer")
+        raise NotImplementedError("Lemmatizer")

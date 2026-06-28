@@ -38,12 +38,6 @@ def nice_print(res):
             print(f"document {nicify_doc_id(doc_id)} got match {scr}")
 
 
-test_query = """
-language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " 
-deep 
-"""
-
-
 def handle_query(query: str):
 
     query: Iterator[SITerm] = DIDAndStreamsGenerator.stream_overall_transformation(string_split(query))
@@ -72,14 +66,23 @@ def handle_query(query: str):
 
     return best_docs
 
-test = True
+old_test_query = """
+language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " deep 
+"""
+test_query1 = """
+language used in web .: change pressing :  learning revolutionized exploration advanced  
+"""
+test_query2 = """
+language used in web : change pressing :  learning revolutionized exploration advanced  
+"""
 
-if __name__ == '__main__':
+is_test = True
+def run(is_it_test: bool = is_test):
     #process
     q=False
     while not q:
-        if test == True:
-            query = test_query 
+        if is_it_test == True:
+            query = old_test_query 
             q = True
         else: 
             query: str = input("Enter query: (quitting is still with Ctrl+C)")
@@ -88,6 +91,16 @@ if __name__ == '__main__':
         
         res: list[tuple[DocumentIdentifier, Number]] = handle_query(query)
 
-        
+def compare():
+    print("same words")
+    handle_query(test_query1)
+    print("words modified")
+    handle_query(test_query2)
+
+def main():
+    compare()
+
+if __name__ == "__main__":
+    main()
  
     
