@@ -20,9 +20,6 @@ class DictUsingInfo(ICorpusInfo, Generic[KT, VT], Mapping):
             self.init(dh)
             return self.__dict_handler
 
-            raise AttributeError(f"This interface doesn't yet have its internal _dict_handler. "
-                                 "To initialize it, use the method init(cls, dh: DictHandler)"
-                                 f"thus the exception {e}")
 
     def init(self, dh: DH):
         self.__dict_handler: DH = dh

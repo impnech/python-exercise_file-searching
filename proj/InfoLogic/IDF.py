@@ -26,7 +26,6 @@ class IDF(InvertedIndex[Number],DefaultHolder):
             return self.default_value
 
     def reset(self):
-        
         for term in StateLessCorpusByPath.all_terms():
             if term in self._dict_handler:
                 continue

@@ -13,6 +13,7 @@ def get_sample_files():
 
 
 def get_sample_word_streams(delim: str = None):
+    raise NotImplementedError()
     return get_term_streams(_sample_file_dir_path, delim)
 
 
@@ -27,10 +28,4 @@ if __name__ == '__main__':
             print(w, end="#")
         print()
 
-    exit()
-    for s in get_sample_word_streams():
-        print(s)
-        for w in s:
-            print(w, end='@')
-        print()
 

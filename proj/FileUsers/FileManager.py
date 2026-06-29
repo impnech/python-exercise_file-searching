@@ -12,21 +12,24 @@ SPath = str | Path
 
 
 def get_documents(dirpath: str | Path) -> Iterator[TextIO]:
+    """no usage"""
     return map(lambda p: p[1], document_paths_and_files_in_dir_map(dirpath))
 
 
 def get_document_paths(dirpath: str | Path):
+    "1 usage, should, and easily can be generic"
     return map(lambda p: p[0], document_paths_and_files_in_dir_map(dirpath))
 
 
 # TOthinkDO: do we really wanna be dependent on a file in Parsing?, maybe delete this, it's not that bad actually
-def get_term_streams(dirpath: str | Path, delim: str = None) -> Iterator[Iterator[str]]:
-    g_logger.warning(f"using a function that maybe should be deleted, {get_term_streams.__name__}")
-
-    return map(lambda p: p[1], document_paths_and_files_in_dir_map(dirpath, lambda file: file_split(file, delim)))
-
+# def get_term_streams(dirpath: str | Path, delim: str = None) -> Iterator[Iterator[str]]:
+#     g_logger.warning(f"using a function that maybe should be deleted, get_term_stream")
+#
+#     return map(lambda p: p[1], document_paths_and_files_in_dir_map(dirpath, lambda file: file_split(file, delim)))
+#
 
 def document_paths_and_files_in_dir_map(dirpath: str | Path, func: Callable[[TextIO], Any] = None) -> Iterator[tuple]:
+    """2 usages, both in this file, only one leads to somewhere, can easily be replaced by much simpler"""
     dirpath = Path(dirpath)
     for file_path in dirpath.iterdir():
         if not file_path.is_file():
@@ -40,9 +43,8 @@ def document_paths_and_files_in_dir_map(dirpath: str | Path, func: Callable[[Tex
             yield file_path, rv
 
 
-
 def get_word_stream(file_path: SPath, func=None, delim=None) -> Iterator[str]:
-
+    """ 3 usages, also can easily be generic """
     file_path = Path(file_path)
     with open(file_path) as f:
         for w in file_split(f, delim):
@@ -54,18 +56,3 @@ def get_word_stream(file_path: SPath, func=None, delim=None) -> Iterator[str]:
 if __name__ == '__main__':
     
     _dir_path: SPath = Path(force_get_env("DOCUMENTS_PATH"))
-
-    g = get_word_stream(Path())
-
-    exit()
-    from Parsing.Lowerizer import Lowerizer
-    for p in document_paths_and_files_in_dir_map(_dir_path, lambda x: Lowerizer.transform(file_split(x))):
-        print(p)
-        print(*p[1], sep="#")
-    exit()
-
-if __name__ == '__main__':
-    for x in get_documents(_dir_path):
-        print(type(x), x.name)
-        for line in file_split(x):
-            print(line)
