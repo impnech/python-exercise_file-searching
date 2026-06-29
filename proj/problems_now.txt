@@ -1,10 +1,10 @@
 problems in descending order (importance):
- /w no .env (paths half literal)
+ -f no .env (paths half literal)
   like previously with running, now with .env access, works only with ctrl+shift+d
- /f no config
+ -f no config
 
  -f generic calculator more than tf-idf
- -b messy file organization (mostly in General)
+ /w messy file organization (mostly in General)
  -f lemmatization doesn't work
  /f simpler main
 
@@ -13,9 +13,10 @@ problems in descending order (importance):
  -b library mltk, installing correctly
  -b closet of shelves isn't getting cleaned
 
+ -b even though .gitignore contains .env, it doesn't ignore
  -b don't have simple way to disable annoying lemmatization (long in pycharm) turn on and off easily
  -b imports are general (import *) and await cleaning
- -b commented code awaits cleaning
+ /w commented code awaits cleaning
  -b|gu testing are not organized (if __name__ instead)
  -b Some class names are confusing
  -b Some class names are too long

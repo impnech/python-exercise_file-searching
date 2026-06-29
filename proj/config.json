@@ -9,27 +9,27 @@
             "class_name": "SimpleDictHandler"
         },
         "Calculator":{
-            "module_path":"Computing.TF_IDFMultiply",
+            "module_path":"InfoLogic.TF_IDFMultiply",
             "class_name":"TF_IDFMultiply",
             "args": []
         },
         "TF":{
-            "module_path":"Computing.TFdivBySum",
+            "module_path":"InfoLogic.TFdivBySum",
             "class_name":"TFdivBySum",
             "args": [0],
             "kwargs": {}
         },
         "IDF":{
-            "module_path":"Computing.SimpleLogarithmicIDF",
+            "module_path":"InfoLogic.SimpleLogarithmicIDF",
             "class_name":"SimpleLogarithmicIDF",
             "args": [0]
         },
         "InvertedIndexCounter": {
-            "module_path": "Computing.InvertedIndexCounter",
+            "module_path": "InfoLogic.InvertedIndexCounter",
             "class_name": "InvertedIndexCounter"
         },
         "CombineNumbers": {
-            "module_path":"Computing.PNormCombine",
+            "module_path":"InfoLogic.PNormCombine",
             "class_name":"PNormCombine",
             "args": [1],
             "kwargs": {}
@@ -61,9 +61,12 @@
             {
             "module_path": "Parsing.BadPatternsRemover",
             "class_name": "BadPatternsRemover"
+            },
+
+            {
+            "module_path": "Parsing.StringTermifier",
+            "class_name": "StringTermifier"
             }
-
-
         ]
     },
     "default_values": {

@@ -1,5 +1,5 @@
 
-from Computing.DictUsingInfo import DictUsingInfo
+from InfoLogic.DictUsingInfo import DictUsingInfo
 from CorpusStructure.IDocument import IDocument, DocumentIdentifier
 from FileUsers.IDsAndStreamsGenerator import *
 from CorpusStructure.DocumentFactory import DocumentFactory
@@ -14,7 +14,7 @@ class DocumentsHolder(DictUsingInfo[DocumentIdentifier, IDocument], Generic[Docu
     
     def reset(self):
         #todo: using here not generic, since
-        for doc_id in IDsAndStreamsGenerator.get_docids():
+        for doc_id in IDsAndStreamsGenerator.get_doc_ids():
             self._dict_handler[doc_id] = DocumentFactory.get_document_implementation(doc_id)
 
     

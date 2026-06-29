@@ -19,7 +19,7 @@ def get_document_paths(dirpath: str | Path):
     return map(lambda p: p[0], document_paths_and_files_in_dir_map(dirpath))
 
 
-# TODO: think, do we really wanna be dependent on a file in Parsing?, maybe delete this,
+# TOthinkDO: do we really wanna be dependent on a file in Parsing?, maybe delete this, it's not that bad actually
 def get_term_streams(dirpath: str | Path, delim: str = None) -> Iterator[Iterator[str]]:
     g_logger.warning(f"using a function that maybe should be deleted, {get_term_streams.__name__}")
 

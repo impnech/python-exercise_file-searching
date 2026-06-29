@@ -27,3 +27,22 @@ for one obvious implementation, but if there is a need, with the help of config,
 4.
 in pycharm template configuration let the path start from root, which was automatic in vscode
 
+5.
+in files_original, for comparing:
+test_query1 = """language used in web .: change pressing :  learning revolutionized exploration advanced  nonexistantword"""
+test_query2 = """language used in web : change press :  learn revolutionized exploration advanced  nonexistantword"""
+
+we get:
+
+same words (tq1)
+document file1.txt got match 0.11552453009332421
+document file4.txt got match 0.11240224549620736
+document file2.txt got match 0.10193340890587431
+words modified (tq2)
+document file4.txt got match 0.11240224549620736
+document file1.txt got match 0.09241962407465937
+document file2.txt got match 0.08154672712469944
+
+with no lemmatizer,
+- SimpleLogarithmicIDF
+- TFDivBySum

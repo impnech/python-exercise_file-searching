@@ -9,6 +9,7 @@ class DocumentByStream(IDocument[Path]):
     doesn't hold the terms in memory
     """
 
+
     __length: int
 
     @property
@@ -22,13 +23,16 @@ class DocumentByStream(IDocument[Path]):
     def __init__(self, doc_id: Path) -> None:
         IDocument.__init__(self, doc_id)
 
+    def raw_term_stream(self) -> Iterator[Any]:
+        return get_word_stream(self.doc_id)
+
     def stream_terms(self) -> Iterator[ITerm]:
-        return IDsAndStreamsGenerator.stream_overall_transformation(get_word_stream(self.doc_id))
+        return IDsAndStreamsGenerator.stream_overall_transformation(self.raw_term_stream())
 
 
 if __name__ == '__main__':
     doc = DocumentByStream(Path(__file__).parent.parent/Path(r'files/sample_texts/file1.txt'))
-    g=doc.stream_terms()
-    x =next(g)
+    g = doc.stream_terms()
+    x = next(g)
     print(x)
 

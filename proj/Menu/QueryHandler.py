@@ -1,9 +1,10 @@
 from typing import Iterator
 
 from AppConfig import get_class_implementation, get_default_value, get_class_implementation_instance
-from Computing.Calculator import Calculator
-from Computing.CombineNumbers import CombineNumbers
-from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator, SITerm
+from InfoLogic.Calculator import Calculator
+from InfoLogic.CombineNumbers import CombineNumbers
+#from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator, SITerm
+from CorpusStructure.IDsAndStreamsGenerator import IDsAndStreamsGenerator
 from Menu.GetNBest import GetNBest
 from Parsing.Splitter import string_split
 from esthetic.Document import nicify_doc_id
@@ -25,7 +26,7 @@ def handle_query(query: str):
 
     score_by = lambda did: combiner.combine((calculator.calc(w, did) for w in query))
 
-    best_docs = selector.gen_n_best_with_score(hm_results, IDsAndStreamsGenerator.get_docids(), score_by)
+    best_docs = selector.gen_n_best_with_score(hm_results, IDsAndStreamsGenerator.get_doc_ids(), score_by)
     nice_print(best_docs)
     return best_docs
 

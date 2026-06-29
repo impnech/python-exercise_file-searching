@@ -18,6 +18,9 @@ class IDocument(ABC, Generic[DocumentIdentifier]):
     def stream_terms(self) -> Iterator[ITerm]:
         pass
 
+    @abstractmethod
+    def raw_term_stream(self) -> Iterator[Any]:
+        pass
 
     @property
     @abstractmethod
