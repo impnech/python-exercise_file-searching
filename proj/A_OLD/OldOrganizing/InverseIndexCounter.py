@@ -36,8 +36,8 @@ class InverseIndexCounter(I_InverseIndex[TermCounterInDocument]):
 
 if __name__ == '__main__':
     from Corpus import Corpus
-    from Building.DocumentByStream import *
-    from Building.StringTerm import *
+    from CorpusStructure.DocumentByStream import *
+    from CorpusStructure.StringTerm import *
 
     #todo config
     d1 = DocumentByStream[int](1, ["hello", " there", "my", "", "hello"])

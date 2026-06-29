@@ -1,8 +1,8 @@
 import typing
 
-from Building.IDocument import *
+from CorpusStructure.IDocument import *
 from TermInfoInDocument import *
-from Structure.Observing import *
+from DesignPatterns.Observing import *
 from abc import *
 from typing import *
 

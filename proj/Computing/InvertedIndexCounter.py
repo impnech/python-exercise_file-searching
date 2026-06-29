@@ -1,10 +1,10 @@
-from General.InvertedIndex import *
-from Building.IDocument import DocumentIdentifier
-from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
+from Computing.InvertedIndex import *
+from CorpusStructure.IDocument import DocumentIdentifier
+from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator
 from Computing.TF import TF
 
-# todo better factory
-from General.DictHandlerFactory import *
+# towantdo better factory
+from Dicts.DictHandlerFactory import *
 
 _Map = Mapping[DocumentIdentifier, int]
 
@@ -18,7 +18,7 @@ class InvertedIndexCounter(TF[_Map], Generic[DocumentIdentifier]):
 
     def reset(self):
         # todo, it's supposed to be ITerms
-        for did, stream in DIDAndStreamsGenerator.get_did_string_streams_sample_pairs():
+        for did, stream in IDsAndStreamsGenerator.get_did_string_streams_sample_pairs():
             for word in stream:
                 if word not in self._dict_handler:
                     # remember that this is not nice

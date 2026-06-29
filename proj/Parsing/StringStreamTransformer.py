@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import *
 
-
 class StringStreamTransformer(ABC):
     @classmethod
     @abstractmethod

@@ -1,5 +1,5 @@
-from Building.ITerm import ITerm
-from Building.IDocument import DocumentIdentifier
+from CorpusStructure.ITerm import ITerm
+from CorpusStructure.IDocument import DocumentIdentifier
 from abc import *
 
 

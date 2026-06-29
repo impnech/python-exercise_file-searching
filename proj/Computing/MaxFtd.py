@@ -1,9 +1,9 @@
 import os; print(f"current working directory: {os.getcwd()} ") 
 import sys; 
 for p in sys.path: print(p)
-from General.InfoPerDocument import InfoPerDocument, DocumentIdentifier
+from Computing.InfoPerDocument import InfoPerDocument, DocumentIdentifier
 from Computing.InvertedIndexCounter import InvertedIndex, InvertedIndexCounter
-from Building.DocumentsHolder import DocumentsHolder
+from CorpusStructure.DocumentsHolder import DocumentsHolder
 
 class MaxFtd(InfoPerDocument[DocumentIdentifier, int]):
     """
@@ -25,7 +25,7 @@ class MaxFtd(InfoPerDocument[DocumentIdentifier, int]):
 
 
 if __name__ == '__main__':
-    from General.DictHandlerFactory import DictHandlerFactory
+    from Dicts.DictHandlerFactory import DictHandlerFactory
     MaxFtd().init(DictHandlerFactory.get_dict_handler())
     x = MaxFtd()
     print(id(x) == id(MaxFtd()))

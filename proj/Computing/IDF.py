@@ -1,8 +1,8 @@
-from General.InvertedIndex import InvertedIndex , ITerm, DH
+from Computing.InvertedIndex import InvertedIndex , ITerm
 from abc import abstractmethod
 from numbers import Number
-from Building.DocumentsHolder import DocumentsHolder, DocumentIdentifier
-from General.DefaultHolder import DefaultHolder
+from CorpusStructure.DocumentsHolder import DocumentsHolder
+from DesignPatterns.DefaultHolder import DefaultHolder
 
 class IDF(InvertedIndex[Number],DefaultHolder):
     """

@@ -1,4 +1,4 @@
-from General.DocumentManager import get_documents, get_term_streams, document_paths_and_files_in_dir_map
+from FileUsers.FileManager import get_documents, get_term_streams, document_paths_and_files_in_dir_map
 from pathlib import Path
 from EnvManager import force_get_env
 from Parsing.Splitter import file_split

@@ -11,7 +11,7 @@ class TF_IDFMultiply(TF_IDF):
 
 if __name__ == "__main__":
 
-    from Building.StringTerm import StringTerm
+    from CorpusStructure.StringTerm import StringTerm
     _path = Path(__file__).parent.parent/"files/sample_texts/file1.txt"
     print(_path)
     w1 = "deep"

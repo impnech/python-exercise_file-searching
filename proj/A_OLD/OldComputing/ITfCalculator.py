@@ -1,4 +1,4 @@
-from Building.IDocument import *
+from CorpusStructure.IDocument import *
 
 
 class ITfCalculator(ABC):

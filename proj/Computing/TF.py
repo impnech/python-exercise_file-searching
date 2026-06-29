@@ -1,15 +1,15 @@
 from abc import abstractmethod
 from numbers import Number
 
-from Building.ITerm import ITerm
-from General.InvertedIndex import InvertedIndex, DH
-from Building.IDocument import DocumentIdentifier
+from CorpusStructure.ITerm import ITerm
+from Computing.InvertedIndex import InvertedIndex, DH
+from CorpusStructure.IDocument import DocumentIdentifier
 
 # questionalbe imports
-from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
+from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator
 from Computing.Calculator import Calculator
-from General.DictHandlerFactory import DictHandlerFactory
-from General.DefaultHolder import DefaultHolder
+from Dicts.DictHandlerFactory import DictHandlerFactory
+from DesignPatterns.DefaultHolder import DefaultHolder
 
 class TF(InvertedIndex, Calculator, DefaultHolder):
 
@@ -29,7 +29,7 @@ class TF(InvertedIndex, Calculator, DefaultHolder):
             
     def reset(self):
         
-        for doc_id, stream in DIDAndStreamsGenerator.get_did_string_streams_sample_pairs():
+        for doc_id, stream in IDsAndStreamsGenerator.get_did_string_streams_sample_pairs():
             
             for term in stream:
                 if term not in self._dict_handler: 

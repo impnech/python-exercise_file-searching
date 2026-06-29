@@ -1,7 +1,7 @@
 from Computing.IDF import IDF
 from Computing.InvertedIndexCounter import InvertedIndexCounter
-from General.InvertedIndex import InvertedIndex, ITerm, Mapping
-from Building.DocumentsHolder import DocumentsHolder, DocumentIdentifier
+from Computing.InvertedIndex import InvertedIndex, ITerm, Mapping
+from CorpusStructure.DocumentsHolder import DocumentsHolder, DocumentIdentifier
 
 import math
 

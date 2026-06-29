@@ -1,7 +1,7 @@
 from Loggers.g_logging import *
 import re
 
-from Building.IDocument import DocumentIdentifier
+from CorpusStructure.IDocument import DocumentIdentifier
 
 def nicify_doc_id(did: DocumentIdentifier):
     try:

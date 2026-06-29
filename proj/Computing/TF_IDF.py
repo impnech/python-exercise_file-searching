@@ -2,12 +2,12 @@ from abc import abstractmethod
 
 from AppConfig import get_class_implementation, get_class_implementation_instance
 
-from Building.IDocument import DocumentIdentifier
+from CorpusStructure.IDocument import DocumentIdentifier
 from Computing.Calculator import Calculator
 #from Computing.Calculator import Calculator
 from Computing.TF import TF
 from Computing.IDF import IDF
-from Building import ITerm
+from CorpusStructure import ITerm
 from numbers import Number
 
 

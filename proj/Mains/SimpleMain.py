@@ -1,7 +1,7 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from Menu.QueryHandler import handle_query
 # override true because it doesn't update automatically, this is before any other import, so there's no need to update
-load_dotenv(override=True)
+#load_dotenv(override=True)
 
 # imports
 from Loggers.g_logging import g_logger

@@ -3,7 +3,7 @@ from Parsing.Splitter import *
 from Parsing.StopwordsRemover import StopwordsRemover
 from Parsing.Lowerizer import *
 from Parsing.NoiseRemover import *
-from General.DIDAndStreamsGenerator import *
+from FileUsers.IDsAndStreamsGenerator import *
 
 class MyTestCase(unittest.TestCase):
     @staticmethod

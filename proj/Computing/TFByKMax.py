@@ -1,5 +1,7 @@
+from typing import Mapping
+
 from Computing.InvertedIndexCounter import InvertedIndexCounter
-from Building.DocumentsHolder import DocumentsHolder, DocumentIdentifier, IDocument
+from CorpusStructure.DocumentsHolder import DocumentsHolder, DocumentIdentifier, IDocument
 from Computing.TF import *
 from Computing.MaxFtd import MaxFtd, InfoPerDocument
 
@@ -12,14 +14,15 @@ class TFByKMax(TF):
     """
 
     # for now K can be only 0.5, todo better (not urgent)
-    _K: float = 0.5 
+    @property
+    def K(self):
+        return 0.5
 
-    @classmethod
-    def calc(cls, term: ITerm, doc_id: DocumentIdentifier) -> float:
+    def calc(self, term: ITerm, doc_id: DocumentIdentifier) -> float:
         counter: InvertedIndex[Mapping[DocumentIdentifier,int]] = InvertedIndexCounter()
         maxer: InfoPerDocument[DocumentIdentifier, int] = MaxFtd()
         weight = counter[term][doc_id] / maxer[doc_id]
-        k =cls._K
+        k = self.K
         return k + (1 - k) * weight
 
 

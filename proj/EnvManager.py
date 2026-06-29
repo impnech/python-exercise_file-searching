@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 from pathlib import Path
-
 load_dotenv(override=True)
 
 #print(f"{__file__.split("\\")[-1]} is being run")

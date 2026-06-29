@@ -1,7 +1,7 @@
 from EnvManager import force_get_env
 from Parsing.BadWordsRemover import *
 from pathlib import Path
-from General.DocumentManager import get_word_stream
+from FileUsers.FileManager import get_word_stream
 import os
 
 # shouldn't really be static

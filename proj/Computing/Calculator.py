@@ -1,9 +1,9 @@
 from numbers import Number
 
-from General.ICorpusInfo import ICorpusInfo
+from Computing.ICorpusInfo import ICorpusInfo
 from abc import abstractmethod
-from Building.ITerm import ITerm
-from Building.IDocument import DocumentIdentifier
+from CorpusStructure.ITerm import ITerm
+from CorpusStructure.IDocument import DocumentIdentifier
 
 class Calculator(ICorpusInfo):
     @abstractmethod

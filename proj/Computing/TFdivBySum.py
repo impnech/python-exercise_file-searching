@@ -1,9 +1,9 @@
-from Building.IDocument import DocumentIdentifier
-from Building.ITerm import ITerm
+from CorpusStructure.IDocument import DocumentIdentifier
+from CorpusStructure.ITerm import ITerm
 from AppConfig import get_class_implementation
 from Computing.TF import TF
 from Computing.InvertedIndexCounter import InvertedIndexCounter
-from Building.DocumentsHolder import DocumentsHolder
+from CorpusStructure.DocumentsHolder import DocumentsHolder
 
 class TFdivBySum(TF):
     """

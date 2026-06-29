@@ -3,7 +3,7 @@ from typing import Iterator
 from AppConfig import get_class_implementation, get_default_value, get_class_implementation_instance
 from Computing.Calculator import Calculator
 from Computing.CombineNumbers import CombineNumbers
-from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator, SITerm
+from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator, SITerm
 from Menu.GetNBest import GetNBest
 from Parsing.Splitter import string_split
 from esthetic.Document import nicify_doc_id
@@ -20,12 +20,12 @@ def nice_print(_iter):
         print(f"document {nicify_doc_id(doc_id)} got match {scr}")
 
 def handle_query(query: str):
-    query: Iterator[SITerm] = DIDAndStreamsGenerator.stream_overall_transformation(string_split(query))
+    query: Iterator[SITerm] = IDsAndStreamsGenerator.stream_overall_transformation(string_split(query))
     query: list[SITerm] = list(query)
 
     score_by = lambda did: combiner.combine((calculator.calc(w, did) for w in query))
 
-    best_docs = selector.gen_n_best_with_score(hm_results, DIDAndStreamsGenerator.get_docids(), score_by )
+    best_docs = selector.gen_n_best_with_score(hm_results, IDsAndStreamsGenerator.get_docids(), score_by)
     nice_print(best_docs)
     return best_docs
 

@@ -3,6 +3,6 @@ tmp/
 proj/unrelated/
 testing_python/
 too_fast_solution/
-proj/.gitignoreable
-proj/files/closet_of_shelves
+proj/.gitignoreable/
+proj/files/closet_of_shelves/
 proj/.env
