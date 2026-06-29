@@ -1,6 +1,7 @@
 import json
 import importlib
 import os.path
+from functools import cache
 
 from EnvManager import force_get_env, get_root_path, get_absolute_path
 from pathlib import Path
@@ -41,7 +42,11 @@ def force_get_setting(key):
     except KeyError:
         raise KeyError(f"config doesn't have the setting {key}")
 
-def get_class_implementation(type_to_create: str) -> type:
+
+@cache
+def get_class_implementation(type_to_create: str | type) -> type:
+    if not isinstance(type_to_create, str):
+        type_to_create: str = type_to_create.__name__
     impl_dict = force_get_setting("implementations")[type_to_create]
     module_path: str = impl_dict["module_path"]
     class_name: str = impl_dict["class_name"]

@@ -1,9 +1,7 @@
 import unittest
-from Parsing.Splitter import *
 from Parsing.StopwordsRemover import StopwordsRemover
-from Parsing.Lowerizer import *
 from Parsing.NoiseRemover import *
-from FileUsers.IDsAndStreamsGenerator import *
+from not_used_yet.IDsAndStreamsGenerator import *
 
 class MyTestCase(unittest.TestCase):
     @staticmethod

@@ -1,14 +1,11 @@
-from typing import Any, Iterator
+from typing import Any, Iterator, Callable
+from CorpusStructure.IDocument import IDocument, ITerm
 
-from CorpusStructure.IDocument import IDocument, ITerm , DocumentIdentifier
+#wish to avoid
 from pathlib import Path
-
 from FileUsers.FileManager import get_word_stream
-from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator
-from Loggers.g_logging import g_logger
-
-
-
+from FileUsers.StateLessCorpusByPath import StateLessCorpusByPath
+from CorpusStructure.TermifierToStringTerm import TermifierToStringTerm
 class DocumentByAssociation(IDocument[Path]):
 
 
@@ -18,8 +15,8 @@ class DocumentByAssociation(IDocument[Path]):
         self.modified_term_list: list[ITerm] = list(self.transformation(self.raw_terms))
 
     @property
-    def transformation(self):
-        return IDsAndStreamsGenerator.stream_overall_transformation
+    def transformation(self) -> Callable:
+        return TermifierToStringTerm.termify
 
     @property
     def length(self):

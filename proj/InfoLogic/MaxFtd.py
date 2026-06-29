@@ -5,6 +5,10 @@ from InfoLogic.InfoPerDocument import InfoPerDocument, DocumentIdentifier
 from InfoLogic.InvertedIndexCounter import InvertedIndex, InvertedIndexCounter
 from CorpusStructure.DocumentsHolder import DocumentsHolder
 
+
+from FileUsers.StateLessCorpusByPath import StateLessCorpusByPath
+
+
 class MaxFtd(InfoPerDocument[DocumentIdentifier, int]):
     """
     Calculates the maximum frequency of any term in each document.
@@ -12,7 +16,7 @@ class MaxFtd(InfoPerDocument[DocumentIdentifier, int]):
     def reset(self):
         docs = DocumentsHolder()
         counter: InvertedIndex = InvertedIndexCounter()
-        for doc_id in docs.document_ids():
+        for doc_id in StateLessCorpusByPath.get_doc_ids():
             doc = docs[doc_id]
             biggest = 0
             for t in doc.stream_terms():

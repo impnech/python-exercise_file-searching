@@ -1,6 +1,7 @@
 from InfoLogic.InvertedIndex import *
 from CorpusStructure.IDocument import DocumentIdentifier
-from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator
+#from FileUsers.StateLessCorpusByPath import StateLessCorpusByPath
+from FileUsers.StateLessCorpusByPath import StateLessCorpusByPath
 from InfoLogic.TF import TF
 
 # towantdo better factory
@@ -18,7 +19,7 @@ class InvertedIndexCounter(TF[_Map], Generic[DocumentIdentifier]):
 
     def reset(self):
         # todo, it's supposed to be ITerms
-        for did, stream in IDsAndStreamsGenerator.id_and_stream_pairs():
+        for did, stream in StateLessCorpusByPath.id_and_stream_pairs():
             for word in stream:
                 if word not in self._dict_handler:
                     # remember that this is not nice
@@ -28,7 +29,7 @@ class InvertedIndexCounter(TF[_Map], Generic[DocumentIdentifier]):
                 else:
                     self._dict_handler[word][did] += 1
 
-    def calc(self, term: ITerm, doc_id: DocumentIdentifier):
+    def calc_for_new(self, term: ITerm, doc_id: DocumentIdentifier):
         try:
             return self[term][doc_id]
         except KeyError:

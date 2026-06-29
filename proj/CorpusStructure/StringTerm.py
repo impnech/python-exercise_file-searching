@@ -8,10 +8,10 @@ class StringTerm(ITerm):
     """
 
     def __init__(self, val: str):
-        if not isinstance(val, str):
+        if not isinstance(val, str | StringTerm):
             raise ValueError(f"val (the value of {StringTerm.__name__}) should be a string")
         # if not val: raise ValueError("val should not be empty")
-        self._val: str = val
+        self._val: str = str(val)
 
     def __hash__(self) -> int:
         return hash(self._val)

@@ -4,6 +4,14 @@
         "format": "%(levelname)s, %(module)s, %(asctime)s,  %(message)s  -  %(name)s"
     },
     "implementations":{
+        "ICorpus": {
+            "module_path": "FileUsers.StateLessCorpusByPath",
+            "class_name": "StateLessCorpusByPath"
+        },
+        "StreamTermifier": {
+            "module_path": "FileUsers.TermifierToStringTerm",
+            "class_name": "TermifierToStringTerm"
+        },
         "DictHandler": {
             "module_path": "Dicts.SimpleDictHandler",
             "class_name": "SimpleDictHandler"

@@ -1,14 +1,16 @@
 from CorpusStructure.IDocument import *
-from typing import Iterable
-from FileUsers.IDsAndStreamsGenerator import IDsAndStreamsGenerator
+
+
+# wish to avoid
+from FileUsers.StateLessCorpusByPath import StateLessCorpusByPath
 from FileUsers.FileManager import get_word_stream
 from pathlib import Path
+from CorpusStructure.TermifierToStringTerm import TermifierToStringTerm
 
 class DocumentByStream(IDocument[Path]):
     """
     doesn't hold the terms in memory
     """
-
 
     __length: int
 
@@ -27,7 +29,8 @@ class DocumentByStream(IDocument[Path]):
         return get_word_stream(self.doc_id)
 
     def stream_terms(self) -> Iterator[ITerm]:
-        return IDsAndStreamsGenerator.stream_overall_transformation(self.raw_term_stream())
+        #return TermifierToStringTerm.transform(self.raw_term_stream())
+        return TermifierToStringTerm.termify(self.raw_term_stream())
 
 
 if __name__ == '__main__':

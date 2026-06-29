@@ -1,3 +1,5 @@
+from numbers import Number
+
 from CorpusStructure.IDocument import DocumentIdentifier
 from CorpusStructure.ITerm import ITerm
 from AppConfig import get_class_implementation
@@ -10,9 +12,9 @@ class TFdivBySum(TF):
     Calculates the term frequency by dividing the term frequency in a document (f_td) by the document size |d| .
     """
     
-    def calc(self, term: ITerm, doc_id: DocumentIdentifier) -> float:
+    def calc_for_new(self, term: ITerm, doc_id: DocumentIdentifier) -> Number:
         counter: InvertedIndexCounter = get_class_implementation(InvertedIndexCounter.__name__)() 
-        ftd: int = counter[term].get(doc_id,0)
+        ftd: int = counter[term].get(doc_id, 0)
         d_size: int = DocumentsHolder()[doc_id].length
 
         return ftd/d_size

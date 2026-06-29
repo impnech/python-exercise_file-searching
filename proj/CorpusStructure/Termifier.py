@@ -1,12 +1,16 @@
+from typing import Iterator,Iterable
 from CorpusStructure.ITerm import ITerm
-from CorpusStructure.StreamTermifier import StreamTermifier
+from CorpusStructure.StreamTermifier import StreamTermifier, abstractmethod
 
 class Termifier(StreamTermifier):
-
     @classmethod
-    def transform(cls, original: Iterator | Iterable) -> Iterator[ITerm]:
-        return (cls._str_transform(x) for x in original)
+    @abstractmethod
+    def _transform(cls, original_s: Iterator | Iterable) -> Iterator | Iterable:
+        pass
     @classmethod
-    def _str_transform(cls, o_value) -> ITerm:
+    def termify(cls, original: Iterator | Iterable) -> Iterator[ITerm]:
+        return (cls.termify_by_one(x) for x in cls._transform(original))
+    @classmethod
+    def termify_by_one(cls, o_value) -> ITerm:
         raise NotImplementedError("Termifier is generic")
 

@@ -1,10 +1,11 @@
+from AppConfig import get_class_implementation
 from abc import  abstractmethod
 from typing import Iterator, Generic
 from CorpusStructure.IDocument import IDocument, DocumentIdentifier
 from CorpusStructure.ITerm import ITerm
 
 
-class ICorpus(Generic[DocumentIdentifier]):
+class ICorpus(Generic[DocumentIdentifier], ):
     @classmethod
     @abstractmethod
     def get_doc_ids(cls) -> Iterator[DocumentIdentifier]:
@@ -26,7 +27,6 @@ class ICorpus(Generic[DocumentIdentifier]):
             yield d_id, cls.term_stream(d_id)
 
     @classmethod
-    @abstractmethod
     def raw_term_stream(cls, doc_id: DocumentIdentifier):
         doc: IDocument = cls.get_document(doc_id)
         return doc.raw_term_stream()
@@ -36,5 +36,4 @@ class ICorpus(Generic[DocumentIdentifier]):
         for d_id in cls.get_doc_ids():
             for term in cls.term_stream(d_id):
                 yield term
-
 

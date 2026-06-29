@@ -1,8 +1,9 @@
 from InfoLogic.InvertedIndex import InvertedIndex , ITerm
 from abc import abstractmethod
 from numbers import Number
-from CorpusStructure.DocumentsHolder import DocumentsHolder
 from DesignPatterns.DefaultHolder import DefaultHolder
+
+from FileUsers.StateLessCorpusByPath import StateLessCorpusByPath
 
 class IDF(InvertedIndex[Number],DefaultHolder):
     """
@@ -26,7 +27,7 @@ class IDF(InvertedIndex[Number],DefaultHolder):
 
     def reset(self):
         
-        for term in DocumentsHolder().get_all_terms_with_duplicates():
+        for term in StateLessCorpusByPath.all_terms():
             if term in self._dict_handler:
                 continue
             self._dict_handler[term] = self.calc_idf(term)

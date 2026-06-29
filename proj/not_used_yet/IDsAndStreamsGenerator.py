@@ -24,6 +24,7 @@ class IDsAndStreamsGenerator:
 
     @classmethod
     def stream_overall_transformation(cls, iterator: Iterator | Iterable):
+        """used only in Document Implementations"""
         res = iterator
         for transformer in cls.transformers_list:
             res = transformer.transform(res)
@@ -31,15 +32,17 @@ class IDsAndStreamsGenerator:
 
     @classmethod
     def stream_overall_transformation_applied_on_file(cls, some_file):
+        """used just by self"""
         return cls.stream_overall_transformation(file_split(some_file))
     
     @classmethod
     def definitely_path(cls, d_path: SPath | None) -> Path:
+        """used just by self"""
         return d_path or cls._sample_files_dir_path
 
     @classmethod
     def id_and_stream_pairs(cls, d_path: SPath = None) -> Iterator[tuple[SPath, Iterator[ITerm | str]]]:
-
+        """used just by self"""
         d_path = cls.definitely_path(d_path)
 
         return document_paths_and_files_in_dir_map(d_path, cls.stream_overall_transformation_applied_on_file)
