@@ -86,17 +86,6 @@ def get_outside_variable(name: str):
 
 if __name__ == "__main__":
 
-    d = {8:5}
-    x= d.get(2, 1)
-    print(x)
-    exit()
-    sett = force_get_setting("implementations_lists")['StringStreamTransformer']
-    print(f"{sett=}")
-    exit()
-    v = get_default_value("splitter_delimiter")
-    print(f"{v=}")
-    for s in ["DictHandler", "Calculator"]:
-        x = get_class_implementation(s)
-        print(f"{type(x)=}\n{x=}")
-    pass   
+    pass
+
 

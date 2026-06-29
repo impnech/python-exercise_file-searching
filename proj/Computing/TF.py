@@ -9,16 +9,14 @@ from Building.IDocument import DocumentIdentifier
 from General.DIDAndStreamsGenerator import DIDAndStreamsGenerator
 from Computing.Calculator import Calculator
 from General.DictHandlerFactory import DictHandlerFactory
+from General.DefaultHolder import DefaultHolder
+
+class TF(InvertedIndex, Calculator, DefaultHolder):
 
 
-class TF(InvertedIndex, Calculator):
+    def __init__(self, default_value=0):
+        super().__init__(default_value)
 
-
-    __default_value: Number
-    @property
-    def default_value(self) -> Number:
-        return self.__default_value 
-    
     @abstractmethod
     def calc(self, term: ITerm, doc_id: DocumentIdentifier) -> Number:
         raise NotImplementedError(f"Generic TF doesn't have calculation implementation")
@@ -29,8 +27,8 @@ class TF(InvertedIndex, Calculator):
         except KeyError:
             return self.default_value 
             
-    def reset(self, default_val = 0):
-        self.__default_value = default_val
+    def reset(self):
+        
         for doc_id, stream in DIDAndStreamsGenerator.get_did_string_streams_sample_pairs():
             
             for term in stream:

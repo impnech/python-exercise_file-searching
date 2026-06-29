@@ -11,22 +11,18 @@
         "Calculator":{
             "module_path":"Computing.TF_IDFMultiply",
             "class_name":"TF_IDFMultiply",
-            "init_args": {
-                "args": [],
-                "kwargs": {}
-            }
+            "args": []
         },
         "TF":{
             "module_path":"Computing.TFdivBySum",
             "class_name":"TFdivBySum",
-            "init_args": {
-                "args": [],
-                "kwargs": {}
-            }
+            "args": [0],
+            "kwargs": {}
         },
         "IDF":{
             "module_path":"Computing.SimpleLogarithmicIDF",
-            "class_name":"SimpleLogarithmicIDF"
+            "class_name":"SimpleLogarithmicIDF",
+            "args": [0]
         },
         "InvertedIndexCounter": {
             "module_path": "Computing.InvertedIndexCounter",
@@ -35,14 +31,13 @@
         "CombineNumbers": {
             "module_path":"Computing.PNormCombine",
             "class_name":"PNormCombine",
-            "init_args": {
-                "args": [1],
-                "kwargs": {}
-            }
+            "args": [1],
+            "kwargs": {}
+
         },
         "IDocument":{
-            "module_path": "Building.DocumentByAssociation",
-            "class_name": "DocumentByAssociation"
+            "module_path": "Building.DocumentByStream",
+            "class_name": "DocumentByStream"
         },
         "GetNBest": {
             "module_path": "Menu.Heaper",

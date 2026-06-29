@@ -2,17 +2,17 @@ from General.InvertedIndex import InvertedIndex , ITerm, DH
 from abc import abstractmethod
 from numbers import Number
 from Building.DocumentsHolder import DocumentsHolder, DocumentIdentifier
+from General.DefaultHolder import DefaultHolder
 
-class IDF(InvertedIndex[Number]):
+class IDF(InvertedIndex[Number],DefaultHolder):
     """
     for most of variation i saw, idf is not dependent on a specific document.
     for the possible exception, it's acceptable to handle seperatly
     """
-    __default_value: Number
-    @property
-    def default_value(self) -> Number:
-        return self.__default_value 
-    
+
+    def __init__(self, default_value = 0):
+        super().__init__(default_value)
+
     @abstractmethod
     def calc_idf(self, term: ITerm) -> Number:
         raise NotImplementedError(f"Generic IDF doesn't have calculation implementation")
@@ -24,8 +24,8 @@ class IDF(InvertedIndex[Number]):
         except KeyError:
             return self.default_value
 
-    def reset(self, default_value = 0):
-        self.__default_value = default_value
+    def reset(self):
+        
         for term in DocumentsHolder().get_all_terms_with_duplicates():
             if term in self._dict_handler:
                 continue

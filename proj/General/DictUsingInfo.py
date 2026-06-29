@@ -31,15 +31,15 @@ class DictUsingInfo(ICorpusInfo, Generic[KT, VT], Mapping):
         self.reset()
 
     from General.DictHandlerFactory import DictHandlerFactory
-    def __init__(self):
-        """
-        temporary solution to not init every dict-using-info manugally
-        """
-        try:
-            self._dict_handler
-        except (AttributeError):
-            dh: DictHandler = DictHandlerFactory.get_dict_handler()
-            self.init(dh)
+    # def __init__(self):
+    #     """
+    #     temporary solution to not init every dict-using-info manugally
+    #     """
+    #     try:
+    #         self._dict_handler
+    #     except (AttributeError):
+    #         dh: DictHandler = DictHandlerFactory.get_dict_handler()
+    #         self.init(dh)
 
     @abstractmethod
     def reset(self):

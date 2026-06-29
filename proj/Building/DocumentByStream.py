@@ -6,6 +6,7 @@ from pathlib import Path
 
 class DocumentByStream(IDocument[Path]):
     """
+    doesn't hold the terms in memory
     """
 
     __length: int

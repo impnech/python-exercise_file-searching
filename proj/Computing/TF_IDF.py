@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from AppConfig import get_class_implementation
+from AppConfig import get_class_implementation, get_class_implementation_instance
 
 from Building.IDocument import DocumentIdentifier
 from Computing.Calculator import Calculator
@@ -17,8 +17,8 @@ class TF_IDF(Calculator):
     so, no inheretince from DictUsingInfo
     """
 
-    tf: TF = get_class_implementation(TF.__name__)()
-    idf: IDF = get_class_implementation(IDF.__name__)()
+    tf: TF = get_class_implementation_instance(TF.__name__)
+    idf: IDF = get_class_implementation_instance(IDF.__name__)
     
     def reset(self):
         self.tf.reset()

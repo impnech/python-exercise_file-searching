@@ -7,13 +7,13 @@ load_dotenv(override=True)
 from Loggers.g_logging import g_logger
 
 old_test_query = """
-language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " deep 
+ nonexistantword : language used in web development. : change is one of the most pressing issues of our  :  learning has  revolutionized the deep field of artificial :  Space exploration has advanced  " deep 
 """
 test_query1 = """
-language used in web .: change pressing :  learning revolutionized exploration advanced  
+language used in web .: change pressing :  learning revolutionized exploration advanced  nonexistantword
 """
 test_query2 = """
-language used in web : change press :  learn revolutionized exploration advanced  
+language used in web : change press :  learn revolutionized exploration advanced  nonexistantword
 """
 
 is_test = True
